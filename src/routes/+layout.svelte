@@ -31,6 +31,12 @@
 	<meta property="twitter:title" content={site.name} />
 	<meta property="twitter:description" content={site.description} />
 	<meta property="twitter:image" content={site.ogImage} />
+
+	<script
+		defer
+		src="https://cloud.umami.is/script.js"
+		data-website-id="925f7ad0-46a3-47fb-92f9-9fab35ddaadb"
+	></script>
 </svelte:head>
 
 <a
