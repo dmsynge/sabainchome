@@ -1,0 +1,795 @@
+msgid ""
+msgstr ""
+"Source-Language: en\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1\n"
+"X-Plurals-Order: other\n"
+
+#. /{0}/; 0: p.slug
+#. /company/
+#. /#work
+#. /company/
+#. /#contact
+#. /
+#. /{0}/; 0: p.slug
+#. /#work
+#. /{0}/; 0: data.prev.slug
+#. /{0}/; 0: data.next.slug
+#. /{0}/; 0: p.slug
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/routes/+page.svelte
+#: src/routes/[slug]/+page.svelte
+#: src/routes/[slug]/+page.svelte
+#: src/routes/[slug]/+page.svelte
+#: src/routes/company/+page.svelte
+#, url:main,url:js
+msgid "/**"
+msgstr "/**"
+
+#: src/lib/components/site/ProductPlate.svelte
+msgid "鯖"
+msgstr "鯖"
+
+#: src/routes/[slug]/+page.svelte
+msgid "What"
+msgstr "概要"
+
+#: src/routes/[slug]/+page.svelte
+msgid "For"
+msgstr "対象"
+
+#: src/routes/[slug]/+page.svelte
+msgid "Where"
+msgstr "地域"
+
+#: src/routes/[slug]/+page.svelte
+msgid "Status"
+msgstr "状況"
+
+#. 0: p.name
+#. 0: p.name
+#: src/routes/[slug]/+page.svelte
+#: src/routes/[slug]/+page.svelte
+msgid "{0} — Saba Inc."
+msgstr "{0} — 株式会社鯖"
+
+#: src/routes/[slug]/+page.svelte
+msgid "Breadcrumb"
+msgstr "パンくずリスト"
+
+#: src/routes/[slug]/+page.svelte
+msgid "← All work"
+msgstr "← 事業一覧"
+
+#. 0: p.domain
+#: src/routes/[slug]/+page.svelte
+msgid "Visit {0}"
+msgstr "{0} を見る"
+
+#: src/routes/[slug]/+page.svelte
+msgid "At a glance"
+msgstr "概要"
+
+#: src/routes/[slug]/+page.svelte
+msgid "About"
+msgstr "この事業について"
+
+#: src/routes/[slug]/+page.svelte
+msgid "What it does"
+msgstr "できること"
+
+#. 0: p.name
+#: src/routes/[slug]/+page.svelte
+msgid "See {0} for yourself."
+msgstr "{0} をぜひご覧ください。"
+
+#. 0: p.name
+#: src/routes/[slug]/+page.svelte
+msgid "Go to {0}"
+msgstr "{0} へ"
+
+#: src/routes/[slug]/+page.svelte
+msgid "More work"
+msgstr "ほかの事業"
+
+#: src/routes/[slug]/+page.svelte
+msgid "← Previous"
+msgstr "← 前へ"
+
+#: src/routes/[slug]/+page.svelte
+msgid "Next →"
+msgstr "次へ →"
+
+#: src/lib/components/site/SiteHeader.svelte
+#: src/routes/+layout.svelte
+msgid "Saba Inc."
+msgstr "株式会社鯖"
+
+#: src/routes/+layout.svelte
+msgid "Skip to content"
+msgstr "本文へスキップ"
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteFooter.svelte
+msgid "株式会社鯖 Saba Inc."
+msgstr "株式会社鯖 Saba Inc."
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/routes/+page.svelte
+msgid "A small, independent company working between Japan and Australia."
+msgstr "日本とオーストラリアをまたいで活動する、小さな独立系企業です。"
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/routes/+page.svelte
+msgid "Work"
+msgstr "事業"
+
+#: src/lib/components/site/SiteFooter.svelte
+msgid "Book a call ↗"
+msgstr "オンライン面談を予約 ↗"
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteHeader.svelte
+msgid "Company"
+msgstr "会社情報"
+
+#. 0: year
+#: src/lib/components/site/SiteFooter.svelte
+msgid "© {0} <0>株式会社鯖</0> Saba Inc."
+msgstr "© {0} <0>株式会社鯖</0> Saba Inc."
+
+#: src/routes/company/+page.svelte
+msgid "<0/>Company"
+msgstr "<0/>会社情報"
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/routes/company/+page.svelte
+msgid "Company profile"
+msgstr "会社概要"
+
+#: src/routes/company/+page.svelte
+msgid "Brands"
+msgstr "事業・ブランド"
+
+#: src/lib/company.ts
+#: src/lib/components/site/SiteHeader.svelte
+#: src/routes/+page.svelte
+msgid "Contact"
+msgstr "お問い合わせ"
+
+#: src/lib/components/site/SiteHeader.svelte
+msgid "Saba"
+msgstr "Saba"
+
+#: src/lib/components/site/SiteHeader.svelte
+#: src/lib/config/meta.ts
+msgid "株式会社鯖"
+msgstr "株式会社鯖"
+
+#: src/lib/components/site/SiteHeader.svelte
+msgid "Main"
+msgstr "メイン"
+
+#: src/lib/products.ts
+msgid "Design"
+msgstr "デザイン"
+
+#: src/lib/products.ts
+msgid "Trade"
+msgstr "商い"
+
+#: src/routes/+page.svelte
+msgid "<0>株式会社鯖</0> · Saba Inc."
+msgstr "<0>株式会社鯖</0> · Saba Inc."
+
+#: src/routes/+page.svelte
+msgid "See our work <0/>"
+msgstr "事業を見る <0/>"
+
+#: src/routes/+page.svelte
+msgid "Book a call"
+msgstr "面談を予約する"
+
+#: src/routes/+page.svelte
+msgid "We make useful things for people doing <0>important</0> work."
+msgstr "<0>大切な</0>仕事をする人のために、役立つものをつくる。"
+
+#: src/routes/+page.svelte
+msgid "What we make and run."
+msgstr "つくっているもの、運営しているもの。"
+
+#: src/routes/+page.svelte
+msgid "Some we own outright, others we build with partners. Each one solves a specific problem for a specific group of people."
+msgstr "自社で保有するものもあれば、パートナーと一緒につくるものもあります。どれも、特定の人たちの具体的な課題を解決するためのものです。"
+
+#: src/routes/+page.svelte
+msgid "Have something worth building? <0>Let’s talk.</0>"
+msgstr "つくりたいものがありますか？<0>お話ししましょう。</0>"
+
+#: src/routes/+page.svelte
+msgid "Pick a time for a 30-minute call. We are a small team, so you will be talking to someone who can actually help."
+msgstr "30分のオンライン面談の日時をお選びください。小さなチームなので、実際にお力になれる者が直接お話しします。"
+
+#: src/routes/+page.svelte
+msgid "Open the calendar on Cal.com ↗"
+msgstr "Cal.comでカレンダーを開く ↗"
+
+#: src/lib/company.ts
+msgid "Company name"
+msgstr "商号"
+
+#: src/lib/company.ts
+msgid "Saba Inc. (株式会社鯖)"
+msgstr "株式会社鯖（英文社名：Saba Inc.）"
+
+#: src/lib/company.ts
+msgid "Representative"
+msgstr "代表者"
+
+#: src/lib/company.ts
+msgid "Django Merope Synge, Representative Director"
+msgstr "代表取締役　メロプシング ジャンゴ"
+
+#: src/lib/company.ts
+msgid "Address"
+msgstr "所在地"
+
+#: src/lib/company.ts
+msgid "Established"
+msgstr "設立"
+
+#: src/lib/company.ts
+msgid "Capital"
+msgstr "資本金"
+
+#: src/lib/company.ts
+msgid "¥5,000,000"
+msgstr "500万円"
+
+#: src/lib/company.ts
+msgid "Employees"
+msgstr "従業員数"
+
+#: src/lib/company.ts
+msgid "2 (as of November 2026)"
+msgstr "2名（2026年11月現在）"
+
+#: src/lib/company.ts
+msgid "Business"
+msgstr "事業内容"
+
+#: src/lib/company.ts
+msgid "Planning, development and operation of software and web services"
+msgstr "ソフトウェアおよびウェブサービスの企画・開発・運営"
+
+#: src/lib/company.ts
+msgid "Research and data analysis"
+msgstr "調査・データ分析"
+
+#: src/lib/company.ts
+msgid "Graphic design and art direction"
+msgstr "グラフィックデザイン・アートディレクション"
+
+#: src/lib/company.ts
+msgid "Import and sale of wine"
+msgstr "酒類の輸入・販売"
+
+#: src/lib/company.ts
+msgid "Corporate number"
+msgstr "法人番号"
+
+#: src/lib/company.ts
+msgid "Fiscal year end"
+msgstr "決算期"
+
+#: src/lib/company.ts
+msgid "Book a call online"
+msgstr "オンラインで面談を予約"
+
+#: src/lib/products.ts
+msgid "Tools for organisers"
+msgstr "オーガナイザーのためのツール"
+
+#: src/lib/products.ts
+msgid "Software and research for campaigns, movements and the people who power them."
+msgstr "キャンペーンや社会運動、それを支える人たちのためのソフトウェアとリサーチ。"
+
+#: src/lib/products.ts
+msgid "Brand identity, illustration and art direction across Japan and Australia."
+msgstr "日本とオーストラリアをまたぐ、ブランドアイデンティティ、イラストレーション、アートディレクション。"
+
+#: src/lib/products.ts
+msgid "Campaign technology & research"
+msgstr "キャンペーン向けテクノロジー＆リサーチ"
+
+#: src/lib/products.ts
+#: src/lib/products.ts
+msgid "Technology and research for forward-thinking progressive campaigns."
+msgstr "先を見据えた進歩派キャンペーンのための、テクノロジーとリサーチ。"
+
+#: src/lib/products.ts
+#: src/lib/products.ts
+msgid "Australia"
+msgstr "オーストラリア"
+
+#: src/lib/products.ts
+msgid "Progressive candidates, campaigns and advocacy groups"
+msgstr "進歩派の候補者、選挙キャンペーン、アドボカシー団体"
+
+#: src/lib/products.ts
+msgid "Working with campaigns"
+msgstr "キャンペーンを支援中"
+
+#: src/lib/products.ts
+msgid "Most campaigns run on a patchwork of spreadsheets and goodwill. 80a brings the kind of technology and analysis that usually only the biggest operations can afford to smaller, faster-moving teams, and stays close enough to the work to change things when the campaign changes."
+msgstr "多くのキャンペーンは、寄せ集めのスプレッドシートと善意で回っています。80aは、ふつうは大規模な陣営しか手にできないテクノロジーと分析を、より小さく機動力のあるチームに届けます。現場との距離を近く保ち、キャンペーンが変われば、道具も変えていきます。"
+
+#: src/lib/products.ts
+msgid "Volunteer and field tools"
+msgstr "ボランティア・現場向けツール"
+
+#: src/lib/products.ts
+msgid "Action hubs, rosters and polling-day tools that give supporters a clear next step and give organisers a clear picture."
+msgstr "アクションハブ、シフト管理、投票日用のツール。支援者には次にやることを、オーガナイザーには全体像を、はっきりと示します。"
+
+#: src/lib/products.ts
+msgid "Phone research"
+msgstr "電話調査"
+
+#: src/lib/products.ts
+msgid "Fast, affordable surveys of real voters through Voiceblocks, our AI-native phone research platform."
+msgstr "AIネイティブの電話調査プラットフォームVoiceblocksで、実際の有権者への調査を、速く、手頃な費用で行います。"
+
+#: src/lib/products.ts
+msgid "Electorate analysis"
+msgstr "選挙区分析"
+
+#: src/lib/products.ts
+msgid "Seat-level modelling, demographics and results analysis, written up so the people making decisions can use it."
+msgstr "選挙区単位のモデリング、人口動態、選挙結果の分析を、意思決定者が使える形にまとめます。"
+
+#: src/lib/products.ts
+msgid "Hands-on support"
+msgstr "伴走サポート"
+
+#: src/lib/products.ts
+msgid "We set things up with you, train your team and stay on call through the campaign."
+msgstr "一緒に導入し、チームをトレーニングし、キャンペーン期間中はいつでも相談に応じます。"
+
+#: src/lib/products.ts
+msgid "Volunteer action hub"
+msgstr "ボランティア・アクションハブ"
+
+#: src/lib/products.ts
+msgid "A self-organising volunteer hub that gives every supporter a useful next step."
+msgstr "すべての支援者に、役に立つ次の一歩を示す、自律型のボランティアハブ。"
+
+#: src/lib/products.ts
+msgid "Your campaign’s central volunteer action hub."
+msgstr "キャンペーンの中心となる、ボランティアのアクションハブ。"
+
+#: src/lib/products.ts
+msgid "Victoria, Australia"
+msgstr "オーストラリア・ビクトリア州"
+
+#: src/lib/products.ts
+msgid "Candidates and campaign teams, starting with the 2026 Victorian state election"
+msgstr "候補者とキャンペーンチーム（まずは2026年ビクトリア州議会選挙から）"
+
+#: src/lib/products.ts
+msgid "Live"
+msgstr "提供中"
+
+#: src/lib/products.ts
+msgid "Campaigns are good at getting people to say “I want to help” and much worse at what happens next. Actionblocks gives every campaign a branded hub where supporters can see exactly what they can do, whether that is an hour of door-knocking, a shift in the office, or ten minutes online from the couch."
+msgstr "キャンペーンは「手伝いたい」と言ってもらうのは得意でも、その先が苦手です。Actionblocksは、キャンペーンごとに独自デザインのハブを用意し、支援者が自分にできることをひと目でわかるようにします。1時間の戸別訪問でも、事務所でのシフトでも、ソファからの10分間のオンライン作業でも。"
+
+#: src/lib/products.ts
+msgid "Each action is a short guided flow. Supporters earn points as they go, and bigger responsibilities unlock over time, such as writing letters to the editor, running a street stall or leading a team. Organisers see who did what and get a heads-up when someone puts their hand up."
+msgstr "それぞれのアクションは、短いガイド付きの手順になっています。支援者は取り組むたびにポイントを獲得し、やがて新聞への投書、街頭ブースの運営、チームのリードといった、より大きな役割に挑戦できるようになります。オーガナイザーは誰が何をしたかを把握でき、誰かが手を挙げると通知を受け取れます。"
+
+#: src/lib/products.ts
+msgid "One place to help"
+msgstr "関わり方を、ひとつの場所に"
+
+#: src/lib/products.ts
+msgid "Every way to get involved, online and in person, on a single board in the campaign’s own branding."
+msgstr "オンラインでも対面でも、あらゆる関わり方を、キャンペーン独自のデザインのボード一枚にまとめます。"
+
+#: src/lib/products.ts
+msgid "Guided actions"
+msgstr "ガイド付きアクション"
+
+#: src/lib/products.ts
+msgid "A library of ready-made actions, from following the campaign on social media to checking enrolment and signing up to volunteer."
+msgstr "SNSでのフォローから、選挙人登録の確認、ボランティア登録まで、すぐに使えるアクションを多数用意しています。"
+
+#: src/lib/products.ts
+msgid "Momentum built in"
+msgstr "勢いが続く仕組み"
+
+#: src/lib/products.ts
+msgid "Points, progress and reminders turn a first sign-up into a habit, with new actions added as the campaign moves."
+msgstr "ポイント、進捗表示、リマインダーで、最初の登録を習慣に変えます。キャンペーンの進行にあわせて、新しいアクションも追加されます。"
+
+#: src/lib/products.ts
+msgid "Set up with you"
+msgstr "一緒にセットアップ"
+
+#: src/lib/products.ts
+msgid "A 30-minute call, then we build your hub with your branding, links and starter actions. You edit and share."
+msgstr "30分の打ち合わせのあと、ブランド、リンク、最初のアクションを入れたハブを私たちが構築します。あとは編集して共有するだけです。"
+
+#: src/lib/products.ts
+msgid "AI-native phone research"
+msgstr "AIネイティブの電話調査"
+
+#: src/lib/products.ts
+msgid "Phone surveys conducted by an AI interviewer, with every answer traceable to a transcript."
+msgstr "AIインタビュアーによる電話調査。すべての回答を、通話の書き起こしまでたどれます。"
+
+#: src/lib/products.ts
+msgid "AI-native phone research for your team."
+msgstr "あなたのチームのための、AIネイティブな電話調査。"
+
+#: src/lib/products.ts
+msgid "Campaigns, advocacy groups and researchers"
+msgstr "キャンペーン、アドボカシー団体、研究者"
+
+#: src/lib/products.ts
+msgid "Invitation only"
+msgstr "招待制"
+
+#: src/lib/products.ts
+msgid "Voiceblocks runs phone surveys by having a conversation. You write a short questionnaire, upload a list, and an AI interviewer calls people, asks the questions naturally, follows up when an answer is unclear and records the whole call."
+msgstr "Voiceblocksは、会話によって電話調査を行います。短い質問票を書いてリストをアップロードすると、AIインタビュアーが電話をかけ、自然に質問し、答えがあいまいなときは聞き返し、通話全体を記録します。"
+
+#: src/lib/products.ts
+msgid "Every completed interview is kept as a full transcript, and answers are pulled out of the conversation and linked back to what was actually said. Results can be weighted to the population you care about, and you can ask questions of the data in plain English."
+msgstr "完了したインタビューはすべて全文の書き起こしとして保存され、回答は会話から抽出されて、実際の発言にひもづけられます。結果は対象とする母集団にあわせてウェイト付けでき、データへの質問も普段の言葉でできます。"
+
+#: src/lib/products.ts
+msgid "Write it like a conversation"
+msgstr "会話のように書く"
+
+#: src/lib/products.ts
+msgid "Build a questionnaire in minutes, reorder questions, and try it on your own phone before anyone else is called."
+msgstr "質問票は数分で作成でき、並べ替えも自由。本番の発信前に、自分の電話で試せます。"
+
+#: src/lib/products.ts
+msgid "Quotas, budgets and limits"
+msgstr "割当・予算・上限"
+
+#: src/lib/products.ts
+msgid "Set calling hours, attempt limits, demographic targets and a spending cap, and let the campaign stop itself when it is done."
+msgstr "発信時間帯、試行回数の上限、属性ごとの目標数、予算の上限を設定すれば、目標に達したところで調査が自動的に止まります。"
+
+#: src/lib/products.ts
+msgid "Answers you can check"
+msgstr "検証できる回答"
+
+#: src/lib/products.ts
+msgid "Every response links to the transcript it came from, so nobody has to take the numbers on trust."
+msgstr "すべての回答が元の書き起こしにリンクしているので、数字をうのみにする必要はありません。"
+
+#: src/lib/products.ts
+msgid "Ask your data"
+msgstr "データに聞く"
+
+#: src/lib/products.ts
+msgid "Weighted results, cross-tabs and an analyst you can question in plain English, grounded in the real responses."
+msgstr "ウェイト付けした結果とクロス集計。さらに、実際の回答にもとづいて、普段の言葉での質問に答えるアナリスト機能も備えています。"
+
+#: src/lib/products.ts
+msgid "Organising software"
+msgstr "オーガナイジング・ソフトウェア"
+
+#: src/lib/products.ts
+msgid "Organising software for distributed communities, built WhatsApp-first and mobile-first."
+msgstr "分散型コミュニティのためのオーガナイジング・ソフトウェア。WhatsAppファースト、モバイルファーストで設計しています。"
+
+#: src/lib/products.ts
+msgid "Software for a new generation of organizing."
+msgstr "新しい世代のオーガナイジングのためのソフトウェア。"
+
+#: src/lib/products.ts
+msgid "Worldwide, with a focus on the Global South"
+msgstr "世界各地（特にグローバルサウス）"
+
+#: src/lib/products.ts
+msgid "Grassroots groups, community networks and international NGOs"
+msgstr "草の根団体、コミュニティネットワーク、国際NGO"
+
+#: src/lib/products.ts
+msgid "Live, free for grassroots groups"
+msgstr "提供中（草の根団体は無料）"
+
+#: src/lib/products.ts
+msgid "Belcoda is organising software for large, distributed communities: networks of people who are connected, active and pulling in the same direction without waiting for instructions from the top."
+msgstr "Belcodaは、大規模で分散したコミュニティのためのオーガナイジング・ソフトウェアです。互いにつながり、主体的に動き、上からの指示を待たずに同じ方向へ進む人々のネットワークを支えます。"
+
+#: src/lib/products.ts
+msgid "It is built for the way most of the world actually organises, which is on a phone, on WhatsApp, often on a slow connection. People, groups, messaging and events live in one place, and the whole thing works in any language and on any device. It is free for grassroots organisations, and Belcoda is stewarded by a non-profit foundation, Stichting Belcoda."
+msgstr "世界の多くの地域では、組織づくりはスマートフォンとWhatsAppで、しかも遅い回線の上で行われています。Belcodaはその現実にあわせてつくられました。人、グループ、メッセージ、イベントをひとつの場所で扱え、どの言語、どの端末でも動きます。草の根団体は無料で利用でき、運営は非営利財団Stichting Belcodaが担っています。"
+
+#: src/lib/products.ts
+msgid "WhatsApp-first"
+msgstr "WhatsAppファースト"
+
+#: src/lib/products.ts
+msgid "Messaging, sign-ups and actions that happen where people already are, including group chats and QR codes."
+msgstr "グループチャットやQRコードなど、人々がすでにいる場所で、メッセージ、登録、アクションが完結します。"
+
+#: src/lib/products.ts
+msgid "Community and events"
+msgstr "コミュニティとイベント"
+
+#: src/lib/products.ts
+msgid "Manage people and groups, then organise, recruit for and run events across the whole network."
+msgstr "人とグループを管理し、ネットワーク全体でイベントの企画、参加者の募集、運営ができます。"
+
+#: src/lib/products.ts
+msgid "Fast everywhere"
+msgstr "どこでも速く"
+
+#: src/lib/products.ts
+msgid "Designed to feel instant on cheap phones and poor connections. Some organisations run entirely from mobile."
+msgstr "安価な端末や不安定な回線でも、すぐに反応するよう設計しています。スマートフォンだけで運営している団体もあります。"
+
+#: src/lib/products.ts
+msgid "Open to your stack"
+msgstr "既存のシステムとつながる"
+
+#: src/lib/products.ts
+msgid "An API, webhooks and an SDK so Belcoda can sit in front of the systems you already use."
+msgstr "API、Webhook、SDKを備え、すでにお使いのシステムの前面にBelcodaを置けます。"
+
+#: src/lib/products.ts
+msgid "Graphic design & art direction"
+msgstr "グラフィックデザイン＆アートディレクション"
+
+#: src/lib/products.ts
+msgid "Brand identity, illustration, packaging and art direction, crossing borders and genres."
+msgstr "国境とジャンルを越える、ブランドアイデンティティ、イラストレーション、パッケージ、アートディレクション。"
+
+#: src/lib/products.ts
+msgid "I love making stuff."
+msgstr "ものづくりが、大好きです。"
+
+#: src/lib/products.ts
+msgid "Japan and Australia"
+msgstr "日本・オーストラリア"
+
+#: src/lib/products.ts
+msgid "Brands, institutions and cultural projects"
+msgstr "ブランド、教育機関、文化プロジェクト"
+
+#: src/lib/products.ts
+msgid "Independent studio"
+msgstr "独立系スタジオ"
+
+#: src/lib/products.ts
+msgid "Mari Uchida Design is the graphic design and art direction practice of Mari Uchida, a designer born in Osaka and trained in Sydney, with an MA from the University of New South Wales. The work moves between Japan and Australia, and between genres."
+msgstr "Mari Uchida Designは、大阪に生まれ、シドニーでデザインを学び、ニューサウスウェールズ大学で修士号を取得したデザイナー、Mari Uchidaによるグラフィックデザイン・アートディレクションのスタジオです。日本とオーストラリアを行き来し、ジャンルを横断して仕事をしています。"
+
+#: src/lib/products.ts
+msgid "Projects range from brand identities and design systems to illustration, packaging, websites, motion graphics, and cross-cultural art projects and exhibitions. Clients have included Torrens University Australia, Johnson & Johnson, Hi-5 and the Japanese Film Festival."
+msgstr "ブランドアイデンティティやデザインシステムから、イラストレーション、パッケージ、ウェブサイト、モーショングラフィックス、異文化をつなぐアートプロジェクトや展覧会まで、幅広く手がけています。これまでのクライアントには、Torrens University Australia、Johnson & Johnson、Hi-5、日本映画祭（Japanese Film Festival）などがあります。"
+
+#: src/lib/products.ts
+msgid "Brand identity"
+msgstr "ブランドアイデンティティ"
+
+#: src/lib/products.ts
+msgid "Identities and design systems that hold together across print, screen and motion."
+msgstr "印刷、画面、映像のどこでも一貫性を保つ、アイデンティティとデザインシステム。"
+
+#: src/lib/products.ts
+msgid "Illustration"
+msgstr "イラストレーション"
+
+#: src/lib/products.ts
+msgid "Icons, illustrations and sketches with a personality of their own."
+msgstr "それ自体に個性のある、アイコン、イラスト、スケッチ。"
+
+#: src/lib/products.ts
+msgid "Packaging and print"
+msgstr "パッケージ・印刷物"
+
+#: src/lib/products.ts
+msgid "Catalogues, packaging and printed matter, made to be picked up and kept."
+msgstr "手に取って、取っておきたくなるカタログ、パッケージ、印刷物。"
+
+#: src/lib/products.ts
+msgid "Across cultures"
+msgstr "文化を越えて"
+
+#: src/lib/products.ts
+msgid "Localisation and cross-cultural projects for Japanese and Australian audiences, from someone at home in both."
+msgstr "日豪どちらの文化にもなじんだデザイナーによる、日本とオーストラリアの受け手に向けたローカライズと異文化プロジェクト。"
+
+#: src/lib/products.ts
+msgid "Local butcher"
+msgstr "地域の精肉店"
+
+#: src/lib/products.ts
+msgid "A local butcher in Bridgewater, Tasmania. Good meat, honest prices."
+msgstr "タスマニア州ブリッジウォーターの、地域の精肉店。良い肉を、正直な価格で。"
+
+#: src/lib/products.ts
+msgid "Good meat. Honest prices."
+msgstr "良い肉を、正直な価格で。"
+
+#: src/lib/products.ts
+msgid "Bridgewater, Tasmania"
+msgstr "オーストラリア・タスマニア州ブリッジウォーター"
+
+#: src/lib/products.ts
+msgid "Local families and households"
+msgstr "地域のご家庭"
+
+#: src/lib/products.ts
+msgid "Right Price Meats is a neighbourhood butcher at Cove Hill Fair in Bridgewater, just north of Hobart. It sells fresh, tasty meat at prices that make sense for a weeknight dinner or a full freezer."
+msgstr "Right Price Meatsは、ホバートのすぐ北、ブリッジウォーターのショッピングセンター「Cove Hill Fair」にある町の精肉店です。平日の夕食にも、冷凍庫のまとめ買いにも納得できる価格で、新鮮でおいしい肉を販売しています。"
+
+#: src/lib/products.ts
+msgid "Most of the trade is family meat packs, made up fresh for the fridge or freezer, and at the end of the year, Christmas packs with ham, roasts and barbecue favourites. Behind the counter is friendly, practical advice on cuts, portions and getting the most out of every shop."
+msgstr "売上の中心は、冷蔵・冷凍用にその場で詰める家族向けのミートパック。年末には、ハム、ロースト、バーベキューの定番を詰めたクリスマスパックも用意します。カウンターでは、部位や量の選び方、上手な買い方について、気さくで実用的なアドバイスをしています。"
+
+#: src/lib/products.ts
+msgid "Meat packs"
+msgstr "ミートパック"
+
+#: src/lib/products.ts
+msgid "Family-sized packs to stock the freezer and cover the week’s dinners."
+msgstr "冷凍庫を満たし、1週間分の夕食をまかなえる家族サイズのパック。"
+
+#: src/lib/products.ts
+msgid "Christmas packs"
+msgstr "クリスマスパック"
+
+#: src/lib/products.ts
+msgid "Glazed ham, roasts, turkey and barbecue favourites for Christmas Day and Boxing Day."
+msgstr "クリスマスとボクシング・デーのための、グレーズドハム、ロースト、ターキー、バーベキューの定番。"
+
+#: src/lib/products.ts
+msgid "Fair every day"
+msgstr "毎日、適正価格"
+
+#: src/lib/products.ts
+msgid "Honest prices for small shops and big ones, not just on special."
+msgstr "特売の日だけでなく、少しの買い物でも、まとめ買いでも、正直な価格で。"
+
+#: src/lib/products.ts
+msgid "Local advice"
+msgstr "地元ならではのアドバイス"
+
+#: src/lib/products.ts
+msgid "Help with cuts and portions from people who know the customers by name."
+msgstr "お客様の名前を覚えているスタッフが、部位や量の選び方をお手伝いします。"
+
+#: src/lib/products.ts
+msgid "Australian wine importer, Japan"
+msgstr "オーストラリアワインの輸入（日本）"
+
+#: src/lib/products.ts
+msgid "Small-producer Australian wines, chosen in person and imported directly to Japan."
+msgstr "小規模生産者のオーストラリアワインを、現地で自ら選び、日本へ直輸入。"
+
+#: src/lib/products.ts
+msgid "Wines loved at home in Australia, and not yet known in Japan."
+msgstr "Wines loved at home in Australia, and not yet known in Japan."
+
+#: src/lib/products.ts
+msgid "Japan"
+msgstr "日本"
+
+#: src/lib/products.ts
+msgid "Sommeliers, restaurants and liquor retailers in Japan"
+msgstr "国内のソムリエ、飲食店、酒販店"
+
+#: src/lib/products.ts
+msgid "First lineup in preparation"
+msgstr "初回ラインナップ準備中"
+
+#: src/lib/products.ts
+msgid "Wombatto brings wines that Australians love, but that almost nobody in Japan has heard of yet, to restaurants and wine shops in Japan."
+msgstr "Wombattoは、オーストラリアで地元の人々に愛されながら、日本ではまだほとんど知られていないワインを、日本のレストランやワインショップに届けます。"
+
+#: src/lib/products.ts
+msgid "We visit small wineries, taste with the people who make the wine, and choose with help from local sommeliers and wine professionals. Reputation matters less than what is in the glass. Wombatto is the only importer of these wines in Japan and brings them in small lots, from regions including the Barossa Valley, Frankland River, Murrumbateman and Denman."
+msgstr "小さなワイナリーを訪ね、造り手と一緒にテイスティングし、現地のソムリエやワインのプロの力も借りて選びます。大切なのは評判より、グラスの中身です。Wombattoはこれらのワインの日本で唯一の輸入元として、バロッサ・ヴァレー、フランクランド・リヴァー、マランベイトマン、デンマンなどの産地から、少量ずつ輸入しています。"
+
+#: src/lib/products.ts
+msgid "Chosen in person"
+msgstr "現地で選ぶ"
+
+#: src/lib/products.ts
+msgid "Every wine is selected after visiting the producer and tasting at the source."
+msgstr "すべてのワインは、生産者を訪ね、現地でテイスティングしてから選んでいます。"
+
+#: src/lib/products.ts
+msgid "Small producers"
+msgstr "小規模生産者"
+
+#: src/lib/products.ts
+msgid "Well-made wines with a local following, picked for flavour and character rather than fame."
+msgstr "知名度ではなく、味わいと個性で選んだ、地元で愛される丁寧なワイン。"
+
+#: src/lib/products.ts
+msgid "Direct to Japan"
+msgstr "日本へ直輸入"
+
+#: src/lib/products.ts
+msgid "Imported directly in small quantities, with Wombatto as the sole distributor in Japan."
+msgstr "Wombattoが日本の総代理店として、少量ずつ直接輸入しています。"
+
+#: src/lib/products.ts
+msgid "For the trade"
+msgstr "業務用のお客様へ"
+
+#: src/lib/products.ts
+msgid "Sommeliers and retailers can request tastings and samples through Wombatto’s LINE account."
+msgstr "ソムリエや酒販店の方は、WombattoのLINE公式アカウントから試飲やサンプルをご依頼いただけます。"
+
+#: src/lib/config/meta.ts
+msgid "Saba Inc. — 株式会社鯖"
+msgstr "株式会社鯖 — Saba Inc."
+
+#: src/lib/config/meta.ts
+msgid "Saba Inc. (株式会社鯖) is a small, independent company working between Japan and Australia."
+msgstr "株式会社鯖（Saba Inc.）は、日本とオーストラリアをまたいで活動する、小さな独立系企業です。"
+
+#: src/routes/company/+page.svelte
+msgid "Company profile of Saba Inc. (株式会社鯖): representative, address, capital and business."
+msgstr "株式会社鯖（Saba Inc.）の会社概要。代表者、所在地、資本金、事業内容など。"
+
+#: src/routes/company/+page.svelte
+msgid "Company profile — Saba Inc."
+msgstr "会社概要 — 株式会社鯖"
+
+#. 0: updated
+#: src/routes/company/+page.svelte
+msgid "Last updated {0}"
+msgstr "最終更新日：{0}"
+
+#: src/lib/products.ts
+msgid "80a is our campaign practice. We work alongside progressive campaigns in Australia, building the tools they use and doing the research that tells them where to put their effort."
+msgstr "80aは、私たちのキャンペーン支援部門です。オーストラリアの進歩派キャンペーンと並走し、現場で使うツールをつくり、どこに力を注ぐべきかを示すリサーチを行っています。"
+
+#: src/lib/company.ts
+msgid "1413 Futami, Shimanto, Kōchi 787-0153, Japan"
+msgstr "〒787-0153 高知県四万十市双海1413"
+
+#: src/lib/company.ts
+msgid "28 January 2026"
+msgstr "2026年1月28日"
+
+#: src/lib/company.ts
+msgid "31 December"
+msgstr "12月31日"
+
+#: src/lib/products.ts
+msgid "A wine importer we run in Japan, and a butcher’s shop in Tasmania we part-own."
+msgstr "日本で運営するワイン輸入事業と、出資しているタスマニアの精肉店。"
+
+#: src/lib/products.ts
+msgid "Part-owned by Saba. Open six days a week"
+msgstr "当社出資先・週6日営業"
+
+#: src/lib/products.ts
+msgid "Part-owned"
+msgstr "出資先"
+
+#: src/lib/products.ts
+msgid "Saba is a part-owner of Right Price Meats and has a seat on its board. The shop itself is run day to day by its own team."
+msgstr "株式会社鯖はRight Price Meatsに出資し、取締役会に加わっています。日々の店舗運営は、店舗のチームが担っています。"

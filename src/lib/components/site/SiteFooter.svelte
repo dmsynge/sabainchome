@@ -1,7 +1,9 @@
 <script lang="ts">
-	import { products } from '$lib/products';
+	import { getProducts } from '$lib/products';
 	import { CAL_URL } from '$lib/cal';
+	import { EMAIL } from '$lib/company';
 
+	const products = getProducts();
 	const year = new Date().getFullYear();
 </script>
 
@@ -32,7 +34,7 @@
 			<ul class="flex flex-col gap-2 text-sm">
 				{#each products as p (p.slug)}
 					<li>
-						<a href="/{p.slug}" class="link-draw text-ink-2 hover:text-ink">{p.name}</a>
+						<a href="/{p.slug}/" class="link-draw text-ink-2 hover:text-ink">{p.name}</a>
 					</li>
 				{/each}
 			</ul>
@@ -42,9 +44,10 @@
 			<p class="eyebrow mb-4">Company</p>
 			<ul class="flex flex-col gap-2 text-sm">
 				<li>
-					<a href="/company" class="link-draw text-ink-2 hover:text-ink">
-						Company profile <span class="font-mincho text-ink-3">会社概要</span>
-					</a>
+					<a href="/company/" class="link-draw text-ink-2 hover:text-ink">Company profile</a>
+				</li>
+				<li>
+					<a href="mailto:{EMAIL}" class="link-draw text-ink-2 hover:text-ink">{EMAIL}</a>
 				</li>
 				<li>
 					<a href={CAL_URL} target="_blank" rel="noopener" class="link-draw text-ink-2 hover:text-ink">

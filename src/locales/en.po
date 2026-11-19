@@ -1,0 +1,795 @@
+msgid ""
+msgstr ""
+"Source-Language: en\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2\n"
+"X-Plurals-Order: one, other\n"
+
+#. /{0}/; 0: p.slug
+#. /company/
+#. /#work
+#. /company/
+#. /#contact
+#. /
+#. /{0}/; 0: p.slug
+#. /#work
+#. /{0}/; 0: data.prev.slug
+#. /{0}/; 0: data.next.slug
+#. /{0}/; 0: p.slug
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/routes/+page.svelte
+#: src/routes/[slug]/+page.svelte
+#: src/routes/[slug]/+page.svelte
+#: src/routes/[slug]/+page.svelte
+#: src/routes/company/+page.svelte
+#, url:main,url:js
+msgid "/**"
+msgstr "/**"
+
+#: src/lib/components/site/ProductPlate.svelte
+msgid "鯖"
+msgstr "鯖"
+
+#: src/routes/[slug]/+page.svelte
+msgid "What"
+msgstr "What"
+
+#: src/routes/[slug]/+page.svelte
+msgid "For"
+msgstr "For"
+
+#: src/routes/[slug]/+page.svelte
+msgid "Where"
+msgstr "Where"
+
+#: src/routes/[slug]/+page.svelte
+msgid "Status"
+msgstr "Status"
+
+#. 0: p.name
+#. 0: p.name
+#: src/routes/[slug]/+page.svelte
+#: src/routes/[slug]/+page.svelte
+msgid "{0} — Saba Inc."
+msgstr "{0} — Saba Inc."
+
+#: src/routes/[slug]/+page.svelte
+msgid "Breadcrumb"
+msgstr "Breadcrumb"
+
+#: src/routes/[slug]/+page.svelte
+msgid "← All work"
+msgstr "← All work"
+
+#. 0: p.domain
+#: src/routes/[slug]/+page.svelte
+msgid "Visit {0}"
+msgstr "Visit {0}"
+
+#: src/routes/[slug]/+page.svelte
+msgid "At a glance"
+msgstr "At a glance"
+
+#: src/routes/[slug]/+page.svelte
+msgid "About"
+msgstr "About"
+
+#: src/routes/[slug]/+page.svelte
+msgid "What it does"
+msgstr "What it does"
+
+#. 0: p.name
+#: src/routes/[slug]/+page.svelte
+msgid "See {0} for yourself."
+msgstr "See {0} for yourself."
+
+#. 0: p.name
+#: src/routes/[slug]/+page.svelte
+msgid "Go to {0}"
+msgstr "Go to {0}"
+
+#: src/routes/[slug]/+page.svelte
+msgid "More work"
+msgstr "More work"
+
+#: src/routes/[slug]/+page.svelte
+msgid "← Previous"
+msgstr "← Previous"
+
+#: src/routes/[slug]/+page.svelte
+msgid "Next →"
+msgstr "Next →"
+
+#: src/lib/components/site/SiteHeader.svelte
+#: src/routes/+layout.svelte
+msgid "Saba Inc."
+msgstr "Saba Inc."
+
+#: src/routes/+layout.svelte
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteFooter.svelte
+msgid "株式会社鯖 Saba Inc."
+msgstr "株式会社鯖 Saba Inc."
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/routes/+page.svelte
+msgid "A small, independent company working between Japan and Australia."
+msgstr "A small, independent company working between Japan and Australia."
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteHeader.svelte
+#: src/routes/+page.svelte
+msgid "Work"
+msgstr "Work"
+
+#: src/lib/components/site/SiteFooter.svelte
+msgid "Book a call ↗"
+msgstr "Book a call ↗"
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/lib/components/site/SiteHeader.svelte
+msgid "Company"
+msgstr "Company"
+
+#. 0: year
+#: src/lib/components/site/SiteFooter.svelte
+msgid "© {0} <0>株式会社鯖</0> Saba Inc."
+msgstr "© {0} <0>株式会社鯖</0> Saba Inc."
+
+#: src/routes/company/+page.svelte
+msgid "<0/>Company"
+msgstr "<0/>Company"
+
+#: src/lib/components/site/SiteFooter.svelte
+#: src/routes/company/+page.svelte
+msgid "Company profile"
+msgstr "Company profile"
+
+#: src/routes/company/+page.svelte
+msgid "Brands"
+msgstr "Brands"
+
+#: src/lib/company.ts
+#: src/lib/components/site/SiteHeader.svelte
+#: src/routes/+page.svelte
+msgid "Contact"
+msgstr "Contact"
+
+#: src/lib/components/site/SiteHeader.svelte
+msgid "Saba"
+msgstr "Saba"
+
+#: src/lib/components/site/SiteHeader.svelte
+#: src/lib/config/meta.ts
+msgid "株式会社鯖"
+msgstr "株式会社鯖"
+
+#: src/lib/components/site/SiteHeader.svelte
+msgid "Main"
+msgstr "Main"
+
+#: src/lib/products.ts
+msgid "Design"
+msgstr "Design"
+
+#: src/lib/products.ts
+msgid "Trade"
+msgstr "Trade"
+
+#: src/routes/+page.svelte
+msgid "<0>株式会社鯖</0> · Saba Inc."
+msgstr "<0>株式会社鯖</0> · Saba Inc."
+
+#: src/routes/+page.svelte
+msgid "See our work <0/>"
+msgstr "See our work <0/>"
+
+#: src/routes/+page.svelte
+msgid "Book a call"
+msgstr "Book a call"
+
+#: src/routes/+page.svelte
+msgid "We make useful things for people doing <0>important</0> work."
+msgstr "We make useful things for people doing <0>important</0> work."
+
+#: src/routes/+page.svelte
+msgid "What we make and run."
+msgstr "What we make and run."
+
+#: src/routes/+page.svelte
+msgid "Some we own outright, others we build with partners. Each one solves a specific problem for a specific group of people."
+msgstr "Some we own outright, others we build with partners. Each one solves a specific problem for a specific group of people."
+
+#: src/routes/+page.svelte
+msgid "Have something worth building? <0>Let’s talk.</0>"
+msgstr "Have something worth building? <0>Let’s talk.</0>"
+
+#: src/routes/+page.svelte
+msgid "Pick a time for a 30-minute call. We are a small team, so you will be talking to someone who can actually help."
+msgstr "Pick a time for a 30-minute call. We are a small team, so you will be talking to someone who can actually help."
+
+#: src/routes/+page.svelte
+msgid "Open the calendar on Cal.com ↗"
+msgstr "Open the calendar on Cal.com ↗"
+
+#: src/lib/company.ts
+msgid "Company name"
+msgstr "Company name"
+
+#: src/lib/company.ts
+msgid "Saba Inc. (株式会社鯖)"
+msgstr "Saba Inc. (株式会社鯖)"
+
+#: src/lib/company.ts
+msgid "Representative"
+msgstr "Representative"
+
+#: src/lib/company.ts
+msgid "Django Merope Synge, Representative Director"
+msgstr "Django Merope Synge, Representative Director"
+
+#: src/lib/company.ts
+msgid "Address"
+msgstr "Address"
+
+#: src/lib/company.ts
+msgid "Established"
+msgstr "Established"
+
+#: src/lib/company.ts
+msgid "Capital"
+msgstr "Capital"
+
+#: src/lib/company.ts
+msgid "¥5,000,000"
+msgstr "¥5,000,000"
+
+#: src/lib/company.ts
+msgid "Employees"
+msgstr "Employees"
+
+#: src/lib/company.ts
+msgid "2 (as of November 2026)"
+msgstr "2 (as of November 2026)"
+
+#: src/lib/company.ts
+msgid "Business"
+msgstr "Business"
+
+#: src/lib/company.ts
+msgid "Planning, development and operation of software and web services"
+msgstr "Planning, development and operation of software and web services"
+
+#: src/lib/company.ts
+msgid "Research and data analysis"
+msgstr "Research and data analysis"
+
+#: src/lib/company.ts
+msgid "Graphic design and art direction"
+msgstr "Graphic design and art direction"
+
+#: src/lib/company.ts
+msgid "Import and sale of wine"
+msgstr "Import and sale of wine"
+
+#: src/lib/company.ts
+msgid "Corporate number"
+msgstr "Corporate number"
+
+#: src/lib/company.ts
+msgid "Fiscal year end"
+msgstr "Fiscal year end"
+
+#: src/lib/company.ts
+msgid "Book a call online"
+msgstr "Book a call online"
+
+#: src/lib/products.ts
+msgid "Tools for organisers"
+msgstr "Tools for organisers"
+
+#: src/lib/products.ts
+msgid "Software and research for campaigns, movements and the people who power them."
+msgstr "Software and research for campaigns, movements and the people who power them."
+
+#: src/lib/products.ts
+msgid "Brand identity, illustration and art direction across Japan and Australia."
+msgstr "Brand identity, illustration and art direction across Japan and Australia."
+
+#: src/lib/products.ts
+msgid "Campaign technology & research"
+msgstr "Campaign technology & research"
+
+#: src/lib/products.ts
+#: src/lib/products.ts
+msgid "Technology and research for forward-thinking progressive campaigns."
+msgstr "Technology and research for forward-thinking progressive campaigns."
+
+#: src/lib/products.ts
+#: src/lib/products.ts
+msgid "Australia"
+msgstr "Australia"
+
+#: src/lib/products.ts
+msgid "Progressive candidates, campaigns and advocacy groups"
+msgstr "Progressive candidates, campaigns and advocacy groups"
+
+#: src/lib/products.ts
+msgid "Working with campaigns"
+msgstr "Working with campaigns"
+
+#: src/lib/products.ts
+msgid "Most campaigns run on a patchwork of spreadsheets and goodwill. 80a brings the kind of technology and analysis that usually only the biggest operations can afford to smaller, faster-moving teams, and stays close enough to the work to change things when the campaign changes."
+msgstr "Most campaigns run on a patchwork of spreadsheets and goodwill. 80a brings the kind of technology and analysis that usually only the biggest operations can afford to smaller, faster-moving teams, and stays close enough to the work to change things when the campaign changes."
+
+#: src/lib/products.ts
+msgid "Volunteer and field tools"
+msgstr "Volunteer and field tools"
+
+#: src/lib/products.ts
+msgid "Action hubs, rosters and polling-day tools that give supporters a clear next step and give organisers a clear picture."
+msgstr "Action hubs, rosters and polling-day tools that give supporters a clear next step and give organisers a clear picture."
+
+#: src/lib/products.ts
+msgid "Phone research"
+msgstr "Phone research"
+
+#: src/lib/products.ts
+msgid "Fast, affordable surveys of real voters through Voiceblocks, our AI-native phone research platform."
+msgstr "Fast, affordable surveys of real voters through Voiceblocks, our AI-native phone research platform."
+
+#: src/lib/products.ts
+msgid "Electorate analysis"
+msgstr "Electorate analysis"
+
+#: src/lib/products.ts
+msgid "Seat-level modelling, demographics and results analysis, written up so the people making decisions can use it."
+msgstr "Seat-level modelling, demographics and results analysis, written up so the people making decisions can use it."
+
+#: src/lib/products.ts
+msgid "Hands-on support"
+msgstr "Hands-on support"
+
+#: src/lib/products.ts
+msgid "We set things up with you, train your team and stay on call through the campaign."
+msgstr "We set things up with you, train your team and stay on call through the campaign."
+
+#: src/lib/products.ts
+msgid "Volunteer action hub"
+msgstr "Volunteer action hub"
+
+#: src/lib/products.ts
+msgid "A self-organising volunteer hub that gives every supporter a useful next step."
+msgstr "A self-organising volunteer hub that gives every supporter a useful next step."
+
+#: src/lib/products.ts
+msgid "Your campaign’s central volunteer action hub."
+msgstr "Your campaign’s central volunteer action hub."
+
+#: src/lib/products.ts
+msgid "Victoria, Australia"
+msgstr "Victoria, Australia"
+
+#: src/lib/products.ts
+msgid "Candidates and campaign teams, starting with the 2026 Victorian state election"
+msgstr "Candidates and campaign teams, starting with the 2026 Victorian state election"
+
+#: src/lib/products.ts
+msgid "Live"
+msgstr "Live"
+
+#: src/lib/products.ts
+msgid "Campaigns are good at getting people to say “I want to help” and much worse at what happens next. Actionblocks gives every campaign a branded hub where supporters can see exactly what they can do, whether that is an hour of door-knocking, a shift in the office, or ten minutes online from the couch."
+msgstr "Campaigns are good at getting people to say “I want to help” and much worse at what happens next. Actionblocks gives every campaign a branded hub where supporters can see exactly what they can do, whether that is an hour of door-knocking, a shift in the office, or ten minutes online from the couch."
+
+#: src/lib/products.ts
+msgid "Each action is a short guided flow. Supporters earn points as they go, and bigger responsibilities unlock over time, such as writing letters to the editor, running a street stall or leading a team. Organisers see who did what and get a heads-up when someone puts their hand up."
+msgstr "Each action is a short guided flow. Supporters earn points as they go, and bigger responsibilities unlock over time, such as writing letters to the editor, running a street stall or leading a team. Organisers see who did what and get a heads-up when someone puts their hand up."
+
+#: src/lib/products.ts
+msgid "One place to help"
+msgstr "One place to help"
+
+#: src/lib/products.ts
+msgid "Every way to get involved, online and in person, on a single board in the campaign’s own branding."
+msgstr "Every way to get involved, online and in person, on a single board in the campaign’s own branding."
+
+#: src/lib/products.ts
+msgid "Guided actions"
+msgstr "Guided actions"
+
+#: src/lib/products.ts
+msgid "A library of ready-made actions, from following the campaign on social media to checking enrolment and signing up to volunteer."
+msgstr "A library of ready-made actions, from following the campaign on social media to checking enrolment and signing up to volunteer."
+
+#: src/lib/products.ts
+msgid "Momentum built in"
+msgstr "Momentum built in"
+
+#: src/lib/products.ts
+msgid "Points, progress and reminders turn a first sign-up into a habit, with new actions added as the campaign moves."
+msgstr "Points, progress and reminders turn a first sign-up into a habit, with new actions added as the campaign moves."
+
+#: src/lib/products.ts
+msgid "Set up with you"
+msgstr "Set up with you"
+
+#: src/lib/products.ts
+msgid "A 30-minute call, then we build your hub with your branding, links and starter actions. You edit and share."
+msgstr "A 30-minute call, then we build your hub with your branding, links and starter actions. You edit and share."
+
+#: src/lib/products.ts
+msgid "AI-native phone research"
+msgstr "AI-native phone research"
+
+#: src/lib/products.ts
+msgid "Phone surveys conducted by an AI interviewer, with every answer traceable to a transcript."
+msgstr "Phone surveys conducted by an AI interviewer, with every answer traceable to a transcript."
+
+#: src/lib/products.ts
+msgid "AI-native phone research for your team."
+msgstr "AI-native phone research for your team."
+
+#: src/lib/products.ts
+msgid "Campaigns, advocacy groups and researchers"
+msgstr "Campaigns, advocacy groups and researchers"
+
+#: src/lib/products.ts
+msgid "Invitation only"
+msgstr "Invitation only"
+
+#: src/lib/products.ts
+msgid "Voiceblocks runs phone surveys by having a conversation. You write a short questionnaire, upload a list, and an AI interviewer calls people, asks the questions naturally, follows up when an answer is unclear and records the whole call."
+msgstr "Voiceblocks runs phone surveys by having a conversation. You write a short questionnaire, upload a list, and an AI interviewer calls people, asks the questions naturally, follows up when an answer is unclear and records the whole call."
+
+#: src/lib/products.ts
+msgid "Every completed interview is kept as a full transcript, and answers are pulled out of the conversation and linked back to what was actually said. Results can be weighted to the population you care about, and you can ask questions of the data in plain English."
+msgstr "Every completed interview is kept as a full transcript, and answers are pulled out of the conversation and linked back to what was actually said. Results can be weighted to the population you care about, and you can ask questions of the data in plain English."
+
+#: src/lib/products.ts
+msgid "Write it like a conversation"
+msgstr "Write it like a conversation"
+
+#: src/lib/products.ts
+msgid "Build a questionnaire in minutes, reorder questions, and try it on your own phone before anyone else is called."
+msgstr "Build a questionnaire in minutes, reorder questions, and try it on your own phone before anyone else is called."
+
+#: src/lib/products.ts
+msgid "Quotas, budgets and limits"
+msgstr "Quotas, budgets and limits"
+
+#: src/lib/products.ts
+msgid "Set calling hours, attempt limits, demographic targets and a spending cap, and let the campaign stop itself when it is done."
+msgstr "Set calling hours, attempt limits, demographic targets and a spending cap, and let the campaign stop itself when it is done."
+
+#: src/lib/products.ts
+msgid "Answers you can check"
+msgstr "Answers you can check"
+
+#: src/lib/products.ts
+msgid "Every response links to the transcript it came from, so nobody has to take the numbers on trust."
+msgstr "Every response links to the transcript it came from, so nobody has to take the numbers on trust."
+
+#: src/lib/products.ts
+msgid "Ask your data"
+msgstr "Ask your data"
+
+#: src/lib/products.ts
+msgid "Weighted results, cross-tabs and an analyst you can question in plain English, grounded in the real responses."
+msgstr "Weighted results, cross-tabs and an analyst you can question in plain English, grounded in the real responses."
+
+#: src/lib/products.ts
+msgid "Organising software"
+msgstr "Organising software"
+
+#: src/lib/products.ts
+msgid "Organising software for distributed communities, built WhatsApp-first and mobile-first."
+msgstr "Organising software for distributed communities, built WhatsApp-first and mobile-first."
+
+#: src/lib/products.ts
+msgid "Software for a new generation of organizing."
+msgstr "Software for a new generation of organizing."
+
+#: src/lib/products.ts
+msgid "Worldwide, with a focus on the Global South"
+msgstr "Worldwide, with a focus on the Global South"
+
+#: src/lib/products.ts
+msgid "Grassroots groups, community networks and international NGOs"
+msgstr "Grassroots groups, community networks and international NGOs"
+
+#: src/lib/products.ts
+msgid "Live, free for grassroots groups"
+msgstr "Live, free for grassroots groups"
+
+#: src/lib/products.ts
+msgid "Belcoda is organising software for large, distributed communities: networks of people who are connected, active and pulling in the same direction without waiting for instructions from the top."
+msgstr "Belcoda is organising software for large, distributed communities: networks of people who are connected, active and pulling in the same direction without waiting for instructions from the top."
+
+#: src/lib/products.ts
+msgid "It is built for the way most of the world actually organises, which is on a phone, on WhatsApp, often on a slow connection. People, groups, messaging and events live in one place, and the whole thing works in any language and on any device. It is free for grassroots organisations, and Belcoda is stewarded by a non-profit foundation, Stichting Belcoda."
+msgstr "It is built for the way most of the world actually organises, which is on a phone, on WhatsApp, often on a slow connection. People, groups, messaging and events live in one place, and the whole thing works in any language and on any device. It is free for grassroots organisations, and Belcoda is stewarded by a non-profit foundation, Stichting Belcoda."
+
+#: src/lib/products.ts
+msgid "WhatsApp-first"
+msgstr "WhatsApp-first"
+
+#: src/lib/products.ts
+msgid "Messaging, sign-ups and actions that happen where people already are, including group chats and QR codes."
+msgstr "Messaging, sign-ups and actions that happen where people already are, including group chats and QR codes."
+
+#: src/lib/products.ts
+msgid "Community and events"
+msgstr "Community and events"
+
+#: src/lib/products.ts
+msgid "Manage people and groups, then organise, recruit for and run events across the whole network."
+msgstr "Manage people and groups, then organise, recruit for and run events across the whole network."
+
+#: src/lib/products.ts
+msgid "Fast everywhere"
+msgstr "Fast everywhere"
+
+#: src/lib/products.ts
+msgid "Designed to feel instant on cheap phones and poor connections. Some organisations run entirely from mobile."
+msgstr "Designed to feel instant on cheap phones and poor connections. Some organisations run entirely from mobile."
+
+#: src/lib/products.ts
+msgid "Open to your stack"
+msgstr "Open to your stack"
+
+#: src/lib/products.ts
+msgid "An API, webhooks and an SDK so Belcoda can sit in front of the systems you already use."
+msgstr "An API, webhooks and an SDK so Belcoda can sit in front of the systems you already use."
+
+#: src/lib/products.ts
+msgid "Graphic design & art direction"
+msgstr "Graphic design & art direction"
+
+#: src/lib/products.ts
+msgid "Brand identity, illustration, packaging and art direction, crossing borders and genres."
+msgstr "Brand identity, illustration, packaging and art direction, crossing borders and genres."
+
+#: src/lib/products.ts
+msgid "I love making stuff."
+msgstr "I love making stuff."
+
+#: src/lib/products.ts
+msgid "Japan and Australia"
+msgstr "Japan and Australia"
+
+#: src/lib/products.ts
+msgid "Brands, institutions and cultural projects"
+msgstr "Brands, institutions and cultural projects"
+
+#: src/lib/products.ts
+msgid "Independent studio"
+msgstr "Independent studio"
+
+#: src/lib/products.ts
+msgid "Mari Uchida Design is the graphic design and art direction practice of Mari Uchida, a designer born in Osaka and trained in Sydney, with an MA from the University of New South Wales. The work moves between Japan and Australia, and between genres."
+msgstr "Mari Uchida Design is the graphic design and art direction practice of Mari Uchida, a designer born in Osaka and trained in Sydney, with an MA from the University of New South Wales. The work moves between Japan and Australia, and between genres."
+
+#: src/lib/products.ts
+msgid "Projects range from brand identities and design systems to illustration, packaging, websites, motion graphics, and cross-cultural art projects and exhibitions. Clients have included Torrens University Australia, Johnson & Johnson, Hi-5 and the Japanese Film Festival."
+msgstr "Projects range from brand identities and design systems to illustration, packaging, websites, motion graphics, and cross-cultural art projects and exhibitions. Clients have included Torrens University Australia, Johnson & Johnson, Hi-5 and the Japanese Film Festival."
+
+#: src/lib/products.ts
+msgid "Brand identity"
+msgstr "Brand identity"
+
+#: src/lib/products.ts
+msgid "Identities and design systems that hold together across print, screen and motion."
+msgstr "Identities and design systems that hold together across print, screen and motion."
+
+#: src/lib/products.ts
+msgid "Illustration"
+msgstr "Illustration"
+
+#: src/lib/products.ts
+msgid "Icons, illustrations and sketches with a personality of their own."
+msgstr "Icons, illustrations and sketches with a personality of their own."
+
+#: src/lib/products.ts
+msgid "Packaging and print"
+msgstr "Packaging and print"
+
+#: src/lib/products.ts
+msgid "Catalogues, packaging and printed matter, made to be picked up and kept."
+msgstr "Catalogues, packaging and printed matter, made to be picked up and kept."
+
+#: src/lib/products.ts
+msgid "Across cultures"
+msgstr "Across cultures"
+
+#: src/lib/products.ts
+msgid "Localisation and cross-cultural projects for Japanese and Australian audiences, from someone at home in both."
+msgstr "Localisation and cross-cultural projects for Japanese and Australian audiences, from someone at home in both."
+
+#: src/lib/products.ts
+msgid "Local butcher"
+msgstr "Local butcher"
+
+#: src/lib/products.ts
+msgid "A local butcher in Bridgewater, Tasmania. Good meat, honest prices."
+msgstr "A local butcher in Bridgewater, Tasmania. Good meat, honest prices."
+
+#: src/lib/products.ts
+msgid "Good meat. Honest prices."
+msgstr "Good meat. Honest prices."
+
+#: src/lib/products.ts
+msgid "Bridgewater, Tasmania"
+msgstr "Bridgewater, Tasmania"
+
+#: src/lib/products.ts
+msgid "Local families and households"
+msgstr "Local families and households"
+
+#: src/lib/products.ts
+msgid "Right Price Meats is a neighbourhood butcher at Cove Hill Fair in Bridgewater, just north of Hobart. It sells fresh, tasty meat at prices that make sense for a weeknight dinner or a full freezer."
+msgstr "Right Price Meats is a neighbourhood butcher at Cove Hill Fair in Bridgewater, just north of Hobart. It sells fresh, tasty meat at prices that make sense for a weeknight dinner or a full freezer."
+
+#: src/lib/products.ts
+msgid "Most of the trade is family meat packs, made up fresh for the fridge or freezer, and at the end of the year, Christmas packs with ham, roasts and barbecue favourites. Behind the counter is friendly, practical advice on cuts, portions and getting the most out of every shop."
+msgstr "Most of the trade is family meat packs, made up fresh for the fridge or freezer, and at the end of the year, Christmas packs with ham, roasts and barbecue favourites. Behind the counter is friendly, practical advice on cuts, portions and getting the most out of every shop."
+
+#: src/lib/products.ts
+msgid "Meat packs"
+msgstr "Meat packs"
+
+#: src/lib/products.ts
+msgid "Family-sized packs to stock the freezer and cover the week’s dinners."
+msgstr "Family-sized packs to stock the freezer and cover the week’s dinners."
+
+#: src/lib/products.ts
+msgid "Christmas packs"
+msgstr "Christmas packs"
+
+#: src/lib/products.ts
+msgid "Glazed ham, roasts, turkey and barbecue favourites for Christmas Day and Boxing Day."
+msgstr "Glazed ham, roasts, turkey and barbecue favourites for Christmas Day and Boxing Day."
+
+#: src/lib/products.ts
+msgid "Fair every day"
+msgstr "Fair every day"
+
+#: src/lib/products.ts
+msgid "Honest prices for small shops and big ones, not just on special."
+msgstr "Honest prices for small shops and big ones, not just on special."
+
+#: src/lib/products.ts
+msgid "Local advice"
+msgstr "Local advice"
+
+#: src/lib/products.ts
+msgid "Help with cuts and portions from people who know the customers by name."
+msgstr "Help with cuts and portions from people who know the customers by name."
+
+#: src/lib/products.ts
+msgid "Australian wine importer, Japan"
+msgstr "Australian wine importer, Japan"
+
+#: src/lib/products.ts
+msgid "Small-producer Australian wines, chosen in person and imported directly to Japan."
+msgstr "Small-producer Australian wines, chosen in person and imported directly to Japan."
+
+#: src/lib/products.ts
+msgid "Wines loved at home in Australia, and not yet known in Japan."
+msgstr "Wines loved at home in Australia, and not yet known in Japan."
+
+#: src/lib/products.ts
+msgid "Japan"
+msgstr "Japan"
+
+#: src/lib/products.ts
+msgid "Sommeliers, restaurants and liquor retailers in Japan"
+msgstr "Sommeliers, restaurants and liquor retailers in Japan"
+
+#: src/lib/products.ts
+msgid "First lineup in preparation"
+msgstr "First lineup in preparation"
+
+#: src/lib/products.ts
+msgid "Wombatto brings wines that Australians love, but that almost nobody in Japan has heard of yet, to restaurants and wine shops in Japan."
+msgstr "Wombatto brings wines that Australians love, but that almost nobody in Japan has heard of yet, to restaurants and wine shops in Japan."
+
+#: src/lib/products.ts
+msgid "We visit small wineries, taste with the people who make the wine, and choose with help from local sommeliers and wine professionals. Reputation matters less than what is in the glass. Wombatto is the only importer of these wines in Japan and brings them in small lots, from regions including the Barossa Valley, Frankland River, Murrumbateman and Denman."
+msgstr "We visit small wineries, taste with the people who make the wine, and choose with help from local sommeliers and wine professionals. Reputation matters less than what is in the glass. Wombatto is the only importer of these wines in Japan and brings them in small lots, from regions including the Barossa Valley, Frankland River, Murrumbateman and Denman."
+
+#: src/lib/products.ts
+msgid "Chosen in person"
+msgstr "Chosen in person"
+
+#: src/lib/products.ts
+msgid "Every wine is selected after visiting the producer and tasting at the source."
+msgstr "Every wine is selected after visiting the producer and tasting at the source."
+
+#: src/lib/products.ts
+msgid "Small producers"
+msgstr "Small producers"
+
+#: src/lib/products.ts
+msgid "Well-made wines with a local following, picked for flavour and character rather than fame."
+msgstr "Well-made wines with a local following, picked for flavour and character rather than fame."
+
+#: src/lib/products.ts
+msgid "Direct to Japan"
+msgstr "Direct to Japan"
+
+#: src/lib/products.ts
+msgid "Imported directly in small quantities, with Wombatto as the sole distributor in Japan."
+msgstr "Imported directly in small quantities, with Wombatto as the sole distributor in Japan."
+
+#: src/lib/products.ts
+msgid "For the trade"
+msgstr "For the trade"
+
+#: src/lib/products.ts
+msgid "Sommeliers and retailers can request tastings and samples through Wombatto’s LINE account."
+msgstr "Sommeliers and retailers can request tastings and samples through Wombatto’s LINE account."
+
+#: src/lib/config/meta.ts
+msgid "Saba Inc. — 株式会社鯖"
+msgstr "Saba Inc. — 株式会社鯖"
+
+#: src/lib/config/meta.ts
+msgid "Saba Inc. (株式会社鯖) is a small, independent company working between Japan and Australia."
+msgstr "Saba Inc. (株式会社鯖) is a small, independent company working between Japan and Australia."
+
+#: src/routes/company/+page.svelte
+msgid "Company profile of Saba Inc. (株式会社鯖): representative, address, capital and business."
+msgstr "Company profile of Saba Inc. (株式会社鯖): representative, address, capital and business."
+
+#: src/routes/company/+page.svelte
+msgid "Company profile — Saba Inc."
+msgstr "Company profile — Saba Inc."
+
+#. 0: updated
+#: src/routes/company/+page.svelte
+msgid "Last updated {0}"
+msgstr "Last updated {0}"
+
+#: src/lib/products.ts
+msgid "80a is our campaign practice. We work alongside progressive campaigns in Australia, building the tools they use and doing the research that tells them where to put their effort."
+msgstr "80a is our campaign practice. We work alongside progressive campaigns in Australia, building the tools they use and doing the research that tells them where to put their effort."
+
+#: src/lib/company.ts
+msgid "1413 Futami, Shimanto, Kōchi 787-0153, Japan"
+msgstr "1413 Futami, Shimanto, Kōchi 787-0153, Japan"
+
+#: src/lib/company.ts
+msgid "28 January 2026"
+msgstr "28 January 2026"
+
+#: src/lib/company.ts
+msgid "31 December"
+msgstr "31 December"
+
+#: src/lib/products.ts
+msgid "A wine importer we run in Japan, and a butcher’s shop in Tasmania we part-own."
+msgstr "A wine importer we run in Japan, and a butcher’s shop in Tasmania we part-own."
+
+#: src/lib/products.ts
+msgid "Part-owned by Saba. Open six days a week"
+msgstr "Part-owned by Saba. Open six days a week"
+
+#: src/lib/products.ts
+msgid "Part-owned"
+msgstr "Part-owned"
+
+#: src/lib/products.ts
+msgid "Saba is a part-owner of Right Price Meats and has a seat on its board. The shop itself is run day to day by its own team."
+msgstr "Saba is a part-owner of Right Price Meats and has a seat on its board. The shop itself is run day to day by its own team."

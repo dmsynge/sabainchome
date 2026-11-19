@@ -16,7 +16,7 @@
 
   const routeList: RouteProps[] = [
     { href: "/#services", label: "Services" },
-    { href: "/voiceblocks", label: "VoiceBlocks" },
+    { href: "/voiceblocks", label: "Voiceblocks" },
     { href: "/#ventures", label: "Ventures" },
     { href: "/#contact", label: "Contact" },
   ];

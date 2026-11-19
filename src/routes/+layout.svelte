@@ -1,27 +1,36 @@
 <script lang="ts">
-	import { siteConfig } from '$lib/config/meta';
+	import { getSiteConfig, SITE_URL } from '$lib/config/meta';
+	import { localize } from '$lib/i18n/localize.js';
+	import { locales } from '../locales/data.js';
 	import SiteHeader from '$lib/components/site/SiteHeader.svelte';
 	import SiteFooter from '$lib/components/site/SiteFooter.svelte';
 	import '../app.css';
 
-	let { children } = $props();
+	let { data, children } = $props();
+	const site = getSiteConfig();
 </script>
 
 <svelte:head>
-	<title>{siteConfig.name}</title>
-	<meta name="description" content={siteConfig.description} />
-	<meta name="keywords" content={siteConfig.keywords.join(', ')} />
+	<title>{site.name}</title>
+	<meta name="description" content={site.description} />
+	<meta name="keywords" content={site.keywords.join(', ')} />
+
+	{#each locales as l (l)}
+		<link rel="alternate" hreflang={l} href="{SITE_URL}{localize(data.path, l)}" />
+	{/each}
+	<link rel="alternate" hreflang="x-default" href="{SITE_URL}{data.path}" />
 
 	<meta property="og:site_name" content="Saba Inc." />
-	<meta property="og:title" content={siteConfig.name} />
-	<meta property="og:description" content={siteConfig.description} />
-	<meta property="og:image" content={siteConfig.ogImage} />
-	<meta property="og:url" content={siteConfig.url} />
+	<meta property="og:locale" content={data.locale === 'ja' ? 'ja_JP' : 'en_AU'} />
+	<meta property="og:title" content={site.name} />
+	<meta property="og:description" content={site.description} />
+	<meta property="og:image" content={site.ogImage} />
+	<meta property="og:url" content="{SITE_URL}{localize(data.path, data.locale)}" />
 
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta property="twitter:title" content={siteConfig.name} />
-	<meta property="twitter:description" content={siteConfig.description} />
-	<meta property="twitter:image" content={siteConfig.ogImage} />
+	<meta property="twitter:title" content={site.name} />
+	<meta property="twitter:description" content={site.description} />
+	<meta property="twitter:image" content={site.ogImage} />
 </svelte:head>
 
 <a

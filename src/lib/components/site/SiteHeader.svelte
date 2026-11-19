@@ -1,14 +1,14 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import LangSwitch from '$lib/i18n/LangSwitch.svelte';
 
 	const links = [
 		{ href: '/#work', label: 'Work' },
-		{ href: '/#approach', label: 'Approach', wide: true },
-		{ href: '/company', label: 'Company' },
+		{ href: '/company/', label: 'Company', wide: true },
 		{ href: '/#contact', label: 'Contact' }
 	];
 
-	let onHome = $derived(page.url.pathname === '/');
+	let onHome = $derived(page.data.path === '/');
 </script>
 
 <header class="sticky top-0 z-40 border-b border-line/70 bg-paper/85 backdrop-blur-md">
@@ -16,7 +16,7 @@
 		<a
 			href="/"
 			class="group flex items-center gap-3"
-			aria-label="Saba Inc. home"
+			aria-label="Saba Inc."
 			aria-current={onHome ? 'page' : undefined}
 		>
 			<img
@@ -35,14 +35,15 @@
 		</a>
 
 		<nav aria-label="Main">
-			<ul class="flex items-center gap-5 text-[0.9rem] text-ink-2 sm:gap-8">
+			<ul class="flex items-center gap-4 text-[0.9rem] text-ink-2 sm:gap-8">
 				{#each links as link (link.href)}
 					<li class={link.wide ? 'hidden sm:block' : undefined}>
-						<a href={link.href} class="link-draw py-1 transition-colors hover:text-ink">
+						<a href={link.href} class="link-draw py-1 whitespace-nowrap transition-colors hover:text-ink">
 							{link.label}
 						</a>
 					</li>
 				{/each}
+				<li class="border-l border-line pl-3 sm:pl-5"><LangSwitch /></li>
 			</ul>
 		</nav>
 	</div>

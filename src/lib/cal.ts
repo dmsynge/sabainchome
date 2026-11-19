@@ -59,6 +59,47 @@ function ensureCal(): CalApi {
 	return cal;
 }
 
+/**
+ * Cal's design tokens, mapped onto the site palette (see app.css) so the
+ * booker reads as part of the page rather than a box dropped onto it.
+ */
+const CAL_THEME = {
+	light: {
+		'cal-brand': '#1c1b19',
+		'cal-brand-emphasis': '#b23a26',
+		'cal-brand-text': '#f6f2ea',
+		'cal-bg': '#f6f2ea',
+		'cal-bg-muted': '#f6f2ea',
+		'cal-bg-subtle': '#efe9dd',
+		'cal-bg-emphasis': '#e6dfd0',
+		'cal-border': '#d9d1c1',
+		'cal-border-subtle': '#e6dfd0',
+		'cal-border-emphasis': '#807a6e',
+		'cal-border-booker': 'transparent',
+		'cal-text': '#1c1b19',
+		'cal-text-emphasis': '#1c1b19',
+		'cal-text-subtle': '#807a6e',
+		'cal-text-muted': '#807a6e'
+	},
+	dark: {
+		'cal-brand': '#ece6da',
+		'cal-brand-emphasis': '#d0573f',
+		'cal-brand-text': '#151412',
+		'cal-bg': '#151412',
+		'cal-bg-muted': '#151412',
+		'cal-bg-subtle': '#1d1c19',
+		'cal-bg-emphasis': '#272521',
+		'cal-border': '#34312b',
+		'cal-border-subtle': '#272521',
+		'cal-border-emphasis': '#8a8478',
+		'cal-border-booker': 'transparent',
+		'cal-text': '#ece6da',
+		'cal-text-emphasis': '#ece6da',
+		'cal-text-subtle': '#8a8478',
+		'cal-text-muted': '#8a8478'
+	}
+};
+
 export interface InlineOptions {
 	namespace?: string;
 	calLink?: string;
@@ -85,10 +126,7 @@ export function mountCalInline(node: HTMLElement, opts: InlineOptions = {}) {
 	api('ui', {
 		hideEventTypeDetails: false,
 		layout: 'month_view',
-		cssVarsPerTheme: {
-			light: { 'cal-brand': '#1c1b19' },
-			dark: { 'cal-brand': '#ece6da' }
-		}
+		cssVarsPerTheme: CAL_THEME
 	});
 
 	return () => {

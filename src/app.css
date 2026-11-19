@@ -4,14 +4,22 @@
 /* Dark mode follows the visitor's system setting. */
 @custom-variant dark (@media (prefers-color-scheme: dark));
 
+/* Styles for the Japanese site only, e.g. `ja:text-3xl`. */
+@custom-variant ja (&:lang(ja));
+
 /*
  * Saba palette
  *   paper  — warm washi off-white
  *   ink    — sumi black, never pure #000
  *   shu    — 朱 vermilion, the colour of the seal; used sparingly
  */
+/*
+ * color-scheme is set to exactly `light` or `dark` (never `light dark`):
+ * the Cal.com embed copies it into its iframe, and a mismatch makes the
+ * browser paint an opaque white canvas behind the calendar.
+ */
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 
   --paper: #f6f2ea;
   --paper-2: #efe9dd;
@@ -48,6 +56,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    color-scheme: dark;
     --paper: #151412;
     --paper-2: #1d1c19;
     --paper-3: #272521;
@@ -174,6 +183,17 @@
   }
   h1, h2, h3 {
     text-wrap: balance;
+  }
+  /* Japanese: no synthetic italics, and break lines between phrases. */
+  q { quotes: "“" "”" "‘" "’"; }
+  :lang(ja) q { quotes: "「" "」" "『" "』"; }
+  :lang(ja) em,
+  :lang(ja) .italic {
+    font-style: normal;
+  }
+  :lang(ja) :is(h1, h2, h3, p, blockquote, dd, li) {
+    word-break: auto-phrase;
+    line-break: strict;
   }
   p {
     text-wrap: pretty;

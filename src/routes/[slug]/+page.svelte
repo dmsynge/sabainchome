@@ -1,10 +1,9 @@
 <script lang="ts">
 	import ProductPlate from '$lib/components/site/ProductPlate.svelte';
-	import { products } from '$lib/products';
 
 	let { data } = $props();
 	let p = $derived(data.product);
-	let n = $derived(String(products.indexOf(p) + 1).padStart(2, '0'));
+	let n = $derived(String(data.index + 1).padStart(2, '0'));
 
 	let facts = $derived([
 		{ label: 'What', value: p.kind },
@@ -56,12 +55,12 @@
 						<p lang={p.headlineLang} class="font-mincho text-xl leading-relaxed [word-break:auto-phrase] md:text-2xl">
 							{p.headline}
 						</p>
-						{#if p.headlineTranslation}
+						{#if p.headlineTranslation && data.locale !== p.headlineLang}
 							<p class="mt-2 font-serif text-lg text-ink-2 italic">{p.headlineTranslation}</p>
 						{/if}
 					{:else}
 						<p class="font-serif text-xl leading-snug text-ink-2 italic md:text-2xl">
-							“{p.headline}”
+							<q>{p.headline}</q>
 						</p>
 					{/if}
 				</blockquote>
@@ -135,11 +134,11 @@
 	<!-- Prev / next -->
 	<nav aria-label="More work" class="border-t border-line">
 		<div class="container grid grid-cols-2">
-			<a href="/{data.prev.slug}" class="group flex flex-col gap-1 border-r border-line py-10 pr-6">
+			<a href="/{data.prev.slug}/" class="group flex flex-col gap-1 border-r border-line py-10 pr-6">
 				<span class="eyebrow">← Previous</span>
 				<span class="font-serif text-xl transition-colors group-hover:text-shu md:text-2xl">{data.prev.name}</span>
 			</a>
-			<a href="/{data.next.slug}" class="group flex flex-col items-end gap-1 py-10 pl-6 text-right">
+			<a href="/{data.next.slug}/" class="group flex flex-col items-end gap-1 py-10 pl-6 text-right">
 				<span class="eyebrow">Next →</span>
 				<span class="font-serif text-xl transition-colors group-hover:text-shu md:text-2xl">{data.next.name}</span>
 			</a>

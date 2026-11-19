@@ -1,44 +1,12 @@
 <script lang="ts">
-	import { products, groups, type Group } from '$lib/products';
+	import { getProducts, getGroups, type Group } from '$lib/products';
 	import ProductPlate from '$lib/components/site/ProductPlate.svelte';
 	import CalEmbed from '$lib/components/site/CalEmbed.svelte';
 	import { CAL_URL } from '$lib/cal';
 
+	const products = getProducts();
+	const groups = getGroups();
 	const order: Group[] = ['civic', 'design', 'trade'];
-
-	const capabilities = [
-		{
-			title: 'Software',
-			text: 'We design and build our own products end to end, from the first sketch to the server it runs on, and we keep running them after launch.'
-		},
-		{
-			title: 'Research',
-			text: 'Polling, modelling and analysis for campaigns, written up plainly enough that the people making decisions actually use it.'
-		},
-		{
-			title: 'Design',
-			text: 'Brand identity, illustration and art direction through Mari Uchida Design, for audiences in Japan and Australia.'
-		},
-		{
-			title: 'Trade',
-			text: 'A butcher’s shop in Tasmania and a wine import business in Japan. Real customers keep us honest about what “useful” means.'
-		}
-	];
-
-	const principles = [
-		{
-			title: 'Small on purpose',
-			text: 'You talk to the people doing the work. Nothing gets lost between a salesperson and a developer.'
-		},
-		{
-			title: 'Useful over impressive',
-			text: 'We build what people will use on a busy Tuesday, not what looks good in a pitch deck.'
-		},
-		{
-			title: 'We run what we build',
-			text: 'Everything here is something we operate ourselves, so we feel it when it breaks and we fix it.'
-		}
-	];
 
 	const pad = (n: number) => String(n).padStart(2, '0');
 </script>
@@ -51,7 +19,7 @@
 			<span><span class="font-mincho tracking-normal">株式会社鯖</span> &nbsp;·&nbsp; Saba Inc.</span>
 		</p>
 		<h1
-			class="font-serif text-[clamp(2.6rem,6.4vw,5.4rem)] leading-[1.02] font-light tracking-[-0.02em]"
+			class="font-serif text-[clamp(2.6rem,6.4vw,5.4rem)] leading-[1.02] font-light tracking-[-0.02em] ja:text-[clamp(2rem,4.6vw,3.6rem)] ja:leading-[1.35] ja:tracking-normal"
 		>
 			We make useful things for people doing <em class="text-shu">important</em> work.
 		</h1>
@@ -85,7 +53,7 @@
 		<div class="mb-16 grid gap-6 md:mb-24 md:grid-cols-[1fr_1.2fr] md:items-end">
 			<div>
 				<p class="eyebrow mb-4">Work</p>
-				<h2 class="font-serif text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.05] font-light tracking-tight">
+				<h2 class="font-serif text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.05] font-light tracking-tight ja:text-[clamp(1.8rem,3.4vw,2.8rem)] ja:leading-[1.35]">
 					What we make and run.
 				</h2>
 			</div>
@@ -108,7 +76,7 @@
 						{@const n = products.indexOf(p) + 1}
 						<li class="border-b border-line first:border-t md:first:border-t-0">
 							<a
-								href="/{p.slug}"
+								href="/{p.slug}/"
 								class="group grid grid-cols-[2rem_1fr_auto] items-center gap-x-4 gap-y-1 py-7 transition-colors md:grid-cols-[2.5rem_9.5rem_1fr_auto] md:gap-x-8"
 							>
 								<span class="self-start pt-2 font-serif text-sm text-ink-3 tabular-nums">
@@ -137,66 +105,33 @@
 	</div>
 </section>
 
-<!-- Approach -->
-<section id="approach" class="scroll-mt-16 bg-paper-2">
-	<div class="container py-24 md:py-32">
-		<div class="grid gap-12 md:grid-cols-[1fr_1.2fr]">
-			<div>
-				<p class="eyebrow mb-4">Approach</p>
-				<h2 class="font-serif text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.05] font-light tracking-tight">
-					Fewer things, <em>done properly.</em>
-				</h2>
-			</div>
-			<p class="max-w-lg self-end text-lg leading-relaxed text-ink-2">
-				We are deliberately small. We take on a handful of things we understand well, look after
-				them properly, and grow them slowly.
-			</p>
-		</div>
-
-		<div class="mt-20 grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
-			{#each capabilities as c (c.title)}
-				<div class="border-t border-ink/80 pt-6">
-					<h3 class="font-serif text-2xl">{c.title}</h3>
-					<p class="mt-3 leading-relaxed text-ink-2">{c.text}</p>
-				</div>
-			{/each}
-		</div>
-
-		<ol class="mt-24 grid gap-px overflow-hidden rounded-lg border border-line bg-line md:grid-cols-3">
-			{#each principles as pr, i (pr.title)}
-				<li class="flex flex-col gap-3 bg-paper p-8">
-					<span class="font-mincho text-sm text-shu">{['一', '二', '三'][i]}</span>
-					<h3 class="font-serif text-xl">{pr.title}</h3>
-					<p class="text-sm leading-relaxed text-ink-2">{pr.text}</p>
-				</li>
-			{/each}
-		</ol>
-	</div>
-</section>
-
 <!-- Contact -->
 <section id="contact" class="scroll-mt-16 border-t border-line">
-	<div class="container grid gap-12 py-24 md:py-32 lg:grid-cols-[1fr_1.6fr] lg:gap-16">
-		<div class="flex flex-col gap-6 lg:sticky lg:top-28 lg:self-start">
-			<p class="eyebrow">Contact</p>
-			<h2 class="font-serif text-[clamp(2.4rem,5vw,4.2rem)] leading-[1.02] font-light tracking-tight">
-				Have something worth building? <em class="text-shu">Let’s talk.</em>
-			</h2>
-			<p class="max-w-sm leading-relaxed text-ink-2">
-				Pick a time for a 30-minute call. We are a small team, so you will be talking to someone who
-				can actually help.
-			</p>
-			<a
-				href={CAL_URL}
-				target="_blank"
-				rel="noopener"
-				class="link-draw self-start text-sm text-ink-3 hover:text-ink"
-			>
-				Open the calendar on Cal.com ↗
-			</a>
+	<div class="container py-24 md:py-32">
+		<div class="mb-12 grid gap-6 md:mb-16 md:grid-cols-[1fr_1.2fr] md:items-end md:gap-12">
+			<div>
+				<p class="eyebrow mb-4">Contact</p>
+				<h2 class="font-serif text-[clamp(2.4rem,5vw,4.2rem)] leading-[1.02] font-light tracking-tight ja:text-[clamp(1.8rem,3.6vw,3rem)] ja:leading-[1.35]">
+					Have something worth building? <em class="text-shu">Let’s talk.</em>
+				</h2>
+			</div>
+			<div class="flex max-w-lg flex-col gap-4">
+				<p class="text-lg leading-relaxed text-ink-2">
+					Pick a time for a 30-minute call. We are a small team, so you will be talking to someone
+					who can actually help.
+				</p>
+				<a
+					href={CAL_URL}
+					target="_blank"
+					rel="noopener"
+					class="link-draw self-start text-sm text-ink-3 hover:text-ink"
+				>
+					Open the calendar on Cal.com ↗
+				</a>
+			</div>
 		</div>
 
-		<div class="overflow-hidden rounded-lg border border-line bg-paper">
+		<div class="border-t border-ink/80 pt-4">
 			<CalEmbed />
 		</div>
 	</div>

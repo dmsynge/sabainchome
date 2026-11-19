@@ -1,88 +1,79 @@
 /**
  * 会社概要 — company profile.
  *
- * Rows whose `value` is null are not shown on the page. Fill them in from the
- * company register (登記事項証明書) and the articles of incorporation (定款).
+ * Laid out along the lines of https://aaam.jp/columns/company-profile-guide:
+ * the facts a visitor checks against the company register (name,
+ * representative, address, establishment) come first,
+ * then the optional facts (business, capital, employees, licences). Every
+ * value must match the register (登記事項証明書) exactly.
+ *
+ * Rows whose `lines` is empty are not shown. Copy lives inside functions so
+ * that wuchale can translate it for the locale of the current request.
  */
 import { CAL_URL } from '$lib/cal';
 
+export const EMAIL = 'info@sabainc.jp';
+
+export type ProfileLine = string | { text: string; href: string };
+
 export interface ProfileRow {
-	ja: string;
-	en: string;
-	value: { ja: string | string[]; en: string | string[] } | null;
-	href?: string;
+	label: string;
+	lines: ProfileLine[];
 }
 
-export const profile: ProfileRow[] = [
-	{
-		ja: '商号',
-		en: 'Company name',
-		value: { ja: '株式会社鯖', en: 'Saba Inc.' }
-	},
-	{
-		// TODO: e.g. { ja: '代表取締役　〇〇 〇〇', en: 'Representative Director: ...' }
-		ja: '代表者',
-		en: 'Representative',
-		value: null
-	},
-	{
-		// TODO: e.g. { ja: '2024年4月1日', en: '1 April 2024' }
-		ja: '設立',
-		en: 'Established',
-		value: null
-	},
-	{
-		// TODO: e.g. { ja: '1,000,000円', en: '¥1,000,000' }
-		ja: '資本金',
-		en: 'Paid-in capital',
-		value: null
-	},
-	{
-		// TODO: registered head office address
-		ja: '本店所在地',
-		en: 'Registered office',
-		value: null
-	},
-	{
-		// TODO: 13-digit corporate number from the National Tax Agency
-		ja: '法人番号',
-		en: 'Corporate number',
-		value: null
-	},
-	{
-		// TODO: e.g. { ja: '3月', en: 'March' }
-		ja: '決算期',
-		en: 'Fiscal year end',
-		value: null
-	},
-	{
-		ja: '事業内容',
-		en: 'Business',
-		value: {
-			ja: [
-				'ソフトウェアおよびウェブサービスの企画・開発・運営',
-				'調査・データ分析',
-				'グラフィックデザイン・アートディレクション',
-				'酒類の輸入・販売'
-			],
-			en: [
+/** Shown as the page's 最終更新日. Bump it whenever a fact changes. */
+export const UPDATED = '2026-11-19';
+
+export function getProfile(): ProfileRow[] {
+	return [
+		{
+			label: 'Company name',
+			lines: ['Saba Inc. (株式会社鯖)']
+		},
+		{
+			label: 'Representative',
+			lines: ['Django Merope Synge, Representative Director']
+		},
+		{
+			label: 'Address',
+			lines: [/* @wc-include */ '1413 Futami, Shimanto, Kōchi 787-0153, Japan']
+		},
+		{
+			label: 'Established',
+			lines: [/* @wc-include */ '28 January 2026']
+		},
+		{
+			label: 'Capital',
+			lines: [/* @wc-include */ '¥5,000,000']
+		},
+		{
+			label: 'Employees',
+			lines: [/* @wc-include */ '2 (as of November 2026)']
+		},
+		{
+			label: 'Business',
+			lines: [
 				'Planning, development and operation of software and web services',
 				'Research and data analysis',
 				'Graphic design and art direction',
 				'Import and sale of wine'
 			]
+		},
+		{
+			label: 'Corporate number',
+			lines: ['7490001011271']
+		},
+		{
+			label: 'Fiscal year end',
+			lines: [/* @wc-include */ '31 December']
+		},
+		{
+			// No phone number on purpose: email and online booking only.
+			label: 'Contact',
+			lines: [
+				{ text: EMAIL, href: `mailto:${EMAIL}` },
+				{ text: 'Book a call online', href: CAL_URL }
+			]
 		}
-	},
-	{
-		// TODO: e.g. the liquor wholesale licence (酒類卸売業免許) Wombatto trades under
-		ja: '許認可',
-		en: 'Licences',
-		value: null
-	},
-	{
-		ja: 'お問い合わせ',
-		en: 'Contact',
-		value: { ja: 'オンラインで面談を予約', en: 'Book a call online' },
-		href: CAL_URL
-	}
-];
+	];
+}
