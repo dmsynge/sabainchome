@@ -1,4 +1,4 @@
-export type Group = 'civic' | 'trade';
+export type Group = 'civic' | 'design' | 'trade';
 
 export interface Product {
 	slug: string;
@@ -31,6 +31,10 @@ export const groups: Record<Group, { title: string; blurb: string }> = {
 		title: 'Tools for organisers',
 		blurb:
 			'Software and research for campaigns, movements and the people who power them.'
+	},
+	design: {
+		title: 'Design',
+		blurb: 'Brand identity, illustration and art direction across Japan and Australia.'
 	},
 	trade: {
 		title: 'Businesses we run',
@@ -184,6 +188,43 @@ export const products: Product[] = [
 			{
 				title: 'Open to your stack',
 				text: 'An API, webhooks and an SDK so Belcoda can sit in front of the systems you already use.'
+			}
+		]
+	},
+	{
+		slug: 'mariuchida',
+		name: 'Mari Uchida Design',
+		kind: 'Graphic design & art direction',
+		summary: 'Brand identity, illustration, packaging and art direction, crossing borders and genres.',
+		headline: 'I love making stuff.',
+		url: 'https://mariuchida.com',
+		domain: 'mariuchida.com',
+		group: 'design',
+		where: 'Japan and Australia',
+		audience: 'Brands, institutions and cultural projects',
+		status: 'Independent studio',
+		tone: '#6a3e4c',
+		plate: 'Mari Uchida',
+		intro: [
+			'Mari Uchida Design is the graphic design and art direction practice of Mari Uchida, a designer born in Osaka and trained in Sydney, with an MA from the University of New South Wales. The work moves between Japan and Australia, and between genres.',
+			'Projects range from brand identities and design systems to illustration, packaging, websites, motion graphics, and cross-cultural art projects and exhibitions. Clients have included Torrens University Australia, Johnson & Johnson, Hi-5 and the Japanese Film Festival.'
+		],
+		highlights: [
+			{
+				title: 'Brand identity',
+				text: 'Identities and design systems that hold together across print, screen and motion.'
+			},
+			{
+				title: 'Illustration',
+				text: 'Icons, illustrations and sketches with a personality of their own.'
+			},
+			{
+				title: 'Packaging and print',
+				text: 'Catalogues, packaging and printed matter, made to be picked up and kept.'
+			},
+			{
+				title: 'Across cultures',
+				text: 'Localisation and cross-cultural projects for Japanese and Australian audiences, from someone at home in both.'
 			}
 		]
 	},

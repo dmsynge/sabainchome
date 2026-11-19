@@ -3,7 +3,8 @@
 
 	const links = [
 		{ href: '/#work', label: 'Work' },
-		{ href: '/#approach', label: 'Approach' },
+		{ href: '/#approach', label: 'Approach', wide: true },
+		{ href: '/company', label: 'Company' },
 		{ href: '/#contact', label: 'Contact' }
 	];
 
@@ -36,7 +37,7 @@
 		<nav aria-label="Main">
 			<ul class="flex items-center gap-5 text-[0.9rem] text-ink-2 sm:gap-8">
 				{#each links as link (link.href)}
-					<li>
+					<li class={link.wide ? 'hidden sm:block' : undefined}>
 						<a href={link.href} class="link-draw py-1 transition-colors hover:text-ink">
 							{link.label}
 						</a>

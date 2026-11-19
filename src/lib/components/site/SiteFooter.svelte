@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { products } from '$lib/products';
+	import { CAL_URL } from '$lib/cal';
 
 	const year = new Date().getFullYear();
 </script>
@@ -22,8 +23,7 @@
 				class="hidden h-14 w-auto self-start dark:block"
 			/>
 			<p class="max-w-xs text-sm leading-relaxed text-ink-3">
-				A small, independent company making software, research and businesses that are useful to
-				the people who rely on them.
+				A small, independent company working between Japan and Australia.
 			</p>
 		</div>
 
@@ -39,19 +39,23 @@
 		</div>
 
 		<div>
-			<p class="eyebrow mb-4">Get in touch</p>
+			<p class="eyebrow mb-4">Company</p>
 			<ul class="flex flex-col gap-2 text-sm">
 				<li>
-					<a href="mailto:hello@saba.inc" class="link-draw text-ink-2 hover:text-ink">
-						hello@saba.inc
+					<a href="/company" class="link-draw text-ink-2 hover:text-ink">
+						Company profile <span class="font-mincho text-ink-3">会社概要</span>
+					</a>
+				</li>
+				<li>
+					<a href={CAL_URL} target="_blank" rel="noopener" class="link-draw text-ink-2 hover:text-ink">
+						Book a call ↗
 					</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 
-	<div class="container flex flex-wrap justify-between gap-3 border-t border-line/70 py-6 text-xs text-ink-3">
+	<div class="container flex flex-wrap gap-3 border-t border-line/70 py-6 text-xs text-ink-3">
 		<p>© {year} <span class="font-mincho">株式会社鯖</span> Saba Inc.</p>
-		<p>Made with care, not templates.</p>
 	</div>
 </footer>

@@ -1,7 +1,7 @@
 export const siteConfig = {
 	name: 'Saba Inc. — 株式会社鯖',
 	description:
-		'Saba (株式会社鯖) is a small, independent company making software, research and businesses: campaign technology in Australia, organising tools worldwide, and a few real-world trades.',
+		'Saba Inc. (株式会社鯖) is a small, independent company working between Japan and Australia.',
 	url: 'https://saba.inc',
 	ogImage: 'https://saba.inc/og.png',
 	keywords: [
@@ -13,6 +13,7 @@ export const siteConfig = {
 		'Belcoda',
 		'Right Price Meats',
 		'Wombatto',
+		'Mari Uchida Design',
 		'campaign technology',
 		'organising software'
 	]

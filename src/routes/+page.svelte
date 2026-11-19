@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { products, groups, type Group } from '$lib/products';
 	import ProductPlate from '$lib/components/site/ProductPlate.svelte';
+	import CalEmbed from '$lib/components/site/CalEmbed.svelte';
+	import { CAL_URL } from '$lib/cal';
 
-	const order: Group[] = ['civic', 'trade'];
+	const order: Group[] = ['civic', 'design', 'trade'];
 
 	const capabilities = [
 		{
@@ -12,6 +14,10 @@
 		{
 			title: 'Research',
 			text: 'Polling, modelling and analysis for campaigns, written up plainly enough that the people making decisions actually use it.'
+		},
+		{
+			title: 'Design',
+			text: 'Brand identity, illustration and art direction through Mari Uchida Design, for audiences in Japan and Australia.'
 		},
 		{
 			title: 'Trade',
@@ -50,9 +56,7 @@
 			We make useful things for people doing <em class="text-shu">important</em> work.
 		</h1>
 		<p class="mt-8 max-w-xl text-lg leading-relaxed text-ink-2 md:text-xl">
-			Saba is a small, independent company working between Japan and Australia. We build software
-			and do research for organisers and campaigns, and we run a couple of real-world businesses
-			too.
+			A small, independent company working between Japan and Australia.
 		</p>
 		<div class="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4">
 			<a
@@ -62,25 +66,17 @@
 				See our work
 				<span class="transition-transform group-hover:translate-y-0.5" aria-hidden="true">↓</span>
 			</a>
-			<a href="mailto:hello@saba.inc" class="link-draw text-sm text-ink-2 hover:text-ink">
-				hello@saba.inc
-			</a>
+			<a href="#contact" class="link-draw text-sm text-ink-2 hover:text-ink">Book a call</a>
 		</div>
 	</div>
 
-	<figure class="hidden flex-col items-center gap-5 md:flex">
-		<img
-			src="/brand/saba-mark.svg"
-			alt="The Saba seal: the kanji 鯖 in a vermilion square"
-			width="200"
-			height="200"
-			class="size-[200px] -rotate-[4deg] drop-shadow-[0_18px_30px_rgb(120_40_20/0.18)] lg:size-[240px]"
-		/>
-		<figcaption class="max-w-[15rem] text-center text-sm leading-snug text-ink-3">
-			<span class="font-mincho text-ink-2">鯖</span>
-			<span class="font-serif italic">saba</span>: mackerel. Ordinary, plentiful, and good for you.
-		</figcaption>
-	</figure>
+	<img
+		src="/brand/saba-mark.svg"
+		alt=""
+		width="200"
+		height="200"
+		class="hidden size-[200px] -rotate-[4deg] drop-shadow-[0_18px_30px_rgb(120_40_20/0.18)] md:block lg:size-[240px]"
+	/>
 </section>
 
 <!-- Work -->
@@ -90,7 +86,7 @@
 			<div>
 				<p class="eyebrow mb-4">Work</p>
 				<h2 class="font-serif text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.05] font-light tracking-tight">
-					Six things we make and run.
+					What we make and run.
 				</h2>
 			</div>
 			<p class="max-w-lg text-lg leading-relaxed text-ink-2">
@@ -148,7 +144,7 @@
 			<div>
 				<p class="eyebrow mb-4">Approach</p>
 				<h2 class="font-serif text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.05] font-light tracking-tight">
-					Like the fish: <em>unfussy, and good for you.</em>
+					Fewer things, <em>done properly.</em>
 				</h2>
 			</div>
 			<p class="max-w-lg self-end text-lg leading-relaxed text-ink-2">
@@ -157,7 +153,7 @@
 			</p>
 		</div>
 
-		<div class="mt-20 grid gap-x-12 gap-y-12 md:grid-cols-3">
+		<div class="mt-20 grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
 			{#each capabilities as c (c.title)}
 				<div class="border-t border-ink/80 pt-6">
 					<h3 class="font-serif text-2xl">{c.title}</h3>
@@ -179,25 +175,29 @@
 </section>
 
 <!-- Contact -->
-<section id="contact" class="scroll-mt-16 bg-[#1c1b19] text-[#ece6da]">
-	<div class="container grid gap-12 py-24 md:grid-cols-[1.4fr_1fr] md:items-end md:py-32">
-		<div>
-			<p class="eyebrow mb-6 !text-[#8a8478]">Contact</p>
-			<h2 class="font-serif text-[clamp(2.4rem,5.5vw,4.6rem)] leading-[1.02] font-light tracking-tight">
-				Have something worth building? <em class="text-[#e0745c]">Say hello.</em>
+<section id="contact" class="scroll-mt-16 border-t border-line">
+	<div class="container grid gap-12 py-24 md:py-32 lg:grid-cols-[1fr_1.6fr] lg:gap-16">
+		<div class="flex flex-col gap-6 lg:sticky lg:top-28 lg:self-start">
+			<p class="eyebrow">Contact</p>
+			<h2 class="font-serif text-[clamp(2.4rem,5vw,4.2rem)] leading-[1.02] font-light tracking-tight">
+				Have something worth building? <em class="text-shu">Let’s talk.</em>
 			</h2>
-		</div>
-		<div class="flex flex-col gap-4">
-			<a
-				href="mailto:hello@saba.inc"
-				class="group inline-flex items-center justify-between gap-6 border-b border-[#ece6da]/30 pb-4 font-serif text-2xl transition-colors hover:border-[#e0745c] md:text-3xl"
-			>
-				hello@saba.inc
-				<span class="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
-			</a>
-			<p class="text-sm leading-relaxed text-[#bdb6a8]">
-				We are a small team, so you will hear back from a person who can actually help.
+			<p class="max-w-sm leading-relaxed text-ink-2">
+				Pick a time for a 30-minute call. We are a small team, so you will be talking to someone who
+				can actually help.
 			</p>
+			<a
+				href={CAL_URL}
+				target="_blank"
+				rel="noopener"
+				class="link-draw self-start text-sm text-ink-3 hover:text-ink"
+			>
+				Open the calendar on Cal.com ↗
+			</a>
+		</div>
+
+		<div class="overflow-hidden rounded-lg border border-line bg-paper">
+			<CalEmbed />
 		</div>
 	</div>
 </section>
