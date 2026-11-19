@@ -199,7 +199,7 @@
           </CardTitle>
         </CardHeader>
 
-        <div class="px-4 sm:px-6 flex-grow">
+        <div class="px-4 sm:px-6 grow">
           {#each positions as position, index}
             <CardContent class="p-0 pb-2 text-muted-foreground">
               {position}{#if index < positions.length - 1},{/if}

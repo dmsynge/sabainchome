@@ -8,7 +8,7 @@
     CardTitle,
   } from "$lib/components/ui/card";
   import * as Carousel from "$lib/components/ui/carousel";
-  import { Star } from "lucide-svelte";
+  import { Star } from "@lucide/svelte";
   import type { CarouselAPI } from "$lib/components/ui/carousel/context";
   import Autoplay from "embla-carousel-autoplay";
 
@@ -92,7 +92,7 @@
       loop: true,
     }}
     plugins={[plugin]}
-    class="relative w-[80%] sm:w-[90%] lg:max-w-screen-xl mx-auto"
+    class="relative w-[80%] sm:w-[90%] lg:max-w-(--breakpoint-xl) mx-auto"
     setApi={(emblaApi) => (api = emblaApi)}
     onmouseenter={plugin.stop}
     onmouseleave={plugin.reset}

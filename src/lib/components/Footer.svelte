@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { ChevronsDown } from "lucide-svelte";
+  import { ChevronsDown } from "@lucide/svelte";
   import { Separator } from "$lib/components/ui/separator";
 </script>
 

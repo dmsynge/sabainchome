@@ -8,7 +8,7 @@
     CardHeader,
     CardTitle,
   } from "$lib/components/ui/card";
-  import { Check } from "lucide-svelte";
+  import { Check } from "@lucide/svelte";
 
   interface PlanProps {
     title: string;

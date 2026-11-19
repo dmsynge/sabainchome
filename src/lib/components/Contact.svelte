@@ -5,7 +5,7 @@
   import { Input } from "$lib/components/ui/input";
   import { Textarea } from "$lib/components/ui/textarea";
   import { Alert, AlertDescription, AlertTitle } from "$lib/components/ui/alert";
-  import { AlertCircle, Building2, Phone, Mail, Clock } from "lucide-svelte";
+  import { AlertCircle, Building2, Phone, Mail, Clock } from "@lucide/svelte";
   import * as Select from "$lib/components/ui/select/index.js";
 
   interface ContactFormProps {

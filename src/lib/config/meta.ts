@@ -1,11 +1,19 @@
 export const siteConfig = {
-    name: "Shadcn/Svelte Landing Page",
-    description: "A beautiful landing page template built with Shadcn/Svelte and SvelteKit",
-    url: "https://shadcn-sveltekit-landing-page.zxce3.net",
-    ogImage: "https://shadcn-sveltekit-landing-page.zxce3.net/og.png",
-    links: {
-        twitter: "https://twitter.com/zxce3_",
-        github: "https://github.com/zxce3"
-    },
-    keywords: ["shadcn", "svelte", "sveltekit", "landing page", "template"]
-}
+	name: 'Saba Inc. — 株式会社鯖',
+	description:
+		'Saba (株式会社鯖) is a small, independent company making software, research and businesses: campaign technology in Australia, organising tools worldwide, and a few real-world trades.',
+	url: 'https://saba.inc',
+	ogImage: 'https://saba.inc/og.png',
+	keywords: [
+		'Saba Inc',
+		'株式会社鯖',
+		'80a',
+		'ActionBlocks',
+		'VoiceBlocks',
+		'Belcoda',
+		'Right Price Meats',
+		'Wombatto',
+		'campaign technology',
+		'organising software'
+	]
+};

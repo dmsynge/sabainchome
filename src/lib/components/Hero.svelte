@@ -1,23 +1,18 @@
 <script lang="ts">
     import { Badge } from "$lib/components/ui/badge";
     import { Button } from "$lib/components/ui/button";
-    import { ArrowRight } from "lucide-svelte";
+    import { ArrowRight } from "@lucide/svelte";
     import { mode } from "mode-watcher";
-    import { onMount } from 'svelte';
 
-    let imageSrc = 'hero-image-light.jpg';
-    
-    onMount(() => {
-        mode.subscribe(currentMode => {
-            imageSrc = currentMode === 'dark' ? 'hero-image-dark.jpg' : 'hero-image-light.jpg';
-        });
-    });
+    let imageSrc = $derived(
+        mode.current === 'dark' ? 'hero-image-dark.jpg' : 'hero-image-light.jpg'
+    );
 
 </script>
 
 <section class="container">
     <div
-        class="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32"
+        class="grid place-items-center lg:max-w-(--breakpoint-xl) gap-8 mx-auto py-20 md:py-32"
     >
         <div class="text-center space-y-8">
             <Badge variant="outline" class="text-sm py-2">
@@ -28,7 +23,7 @@
             </Badge>
 
             <div
-                class="max-w-screen-md mx-auto text-center text-5xl md:text-6xl font-bold"
+                class="max-w-(--breakpoint-md) mx-auto text-center text-5xl md:text-6xl font-bold"
             >
                 <h1>
                     Experience the
@@ -41,7 +36,7 @@
                 </h1>
             </div>
 
-            <p class="max-w-screen-sm mx-auto text-xl text-muted-foreground">
+            <p class="max-w-(--breakpoint-sm) mx-auto text-xl text-muted-foreground">
                 We're more than just a tool, we're a community of passionate
                 creators. Get access to exclusive resources, tutorials, and
                 support.
@@ -116,11 +111,11 @@
 
     @keyframes img-border-animation {
         from {
-            @apply border-t-primary/10;
+            border-top-color: hsl(var(--primary) / 0.1);
         }
 
         to {
-            @apply border-t-primary/60;
+            border-top-color: hsl(var(--primary) / 0.6);
         }
     }
 </style>

@@ -7,7 +7,7 @@
     Squirrel,
     Cookie,
     Drama
-  } from "lucide-svelte";
+  } from "@lucide/svelte";
 
   interface SponsorsProps {
     icon: 'crown' | 'vegan' | 'ghost' | 'puzzle' | 'squirrel' | 'cookie' | 'drama';

@@ -9,7 +9,7 @@
     PictureInPicture,
     MousePointerClick,
     Newspaper,
-  } from "lucide-svelte";
+  } from "@lucide/svelte";
 
   interface FeaturesProps {
     icon: 'tabletSmartphone' | 'badgeCheck' | 'goal' | 'pictureInPicture' | 

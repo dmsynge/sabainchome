@@ -7,7 +7,7 @@
     Blocks,
     LineChart,
     Wallet,
-  } from "lucide-svelte";
+  } from "@lucide/svelte";
 
   interface BenefitsProps {
     icon: 'sparkle' | 'tag' | 'paintbrush' | 'blocks' | 'lineChart' | 'wallet';
