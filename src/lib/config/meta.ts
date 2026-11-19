@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://saba.inc';
+export const SITE_URL = 'https://sabainc.jp';
 
 export function getSiteConfig() {
 	return {
